@@ -125,6 +125,18 @@
               </button>
             </li>
           {% endif %}
+          <!-- Language Toggle -->
+          <li class="nav-item">
+            {% if page.url == '/en/' %}
+              <a class="nav-link" href="{{ '/' | relative_url }}" title="日本語版">
+                <i class="ti ti-language"></i> JP
+              </a>
+            {% else %}
+              <a class="nav-link" href="{{ '/en/' | relative_url }}" title="English Version">
+                <i class="ti ti-language"></i> EN
+              </a>
+            {% endif %}
+          </li>
           {% if site.enable_darkmode %}
             <!-- Toogle theme mode -->
             <li class="toggle-container">
