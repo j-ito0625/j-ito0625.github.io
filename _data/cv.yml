@@ -1,97 +1,68 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+# - title: 基本情報
+#   type: map
+#   contents:
+#     - name: 氏名
+#       value: 伊藤 潤成 (Junsei Ito)
+#     - name: 所属
+#       value: 早稲田大学大学院 先進理工学研究科 電気・情報生命専攻 修士1年
+#     - name: 指導教員
+#       value: <a href="https://wasalab.w.waseda.jp/wasa.html">和佐 泰明</a> 准教授
+#     - name: メール
+#       value: junseiito0625@gmail.com
+#     - name: GitHub
+#       value: <a href="https://github.com/j-ito0625">j-ito0625</a>
+#     - name: 言語
+#       value: 日本語（ネイティブ）、英語（TOEIC 930点）
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+# - title: 学歴
+#   type: time_table
+#   contents:
+#     - title: 修士課程
+#       institution: 早稲田大学大学院 先進理工学研究科
+#       year: 2025年4月 - 現在
+#       description:
+#         - 電気・情報生命専攻
+#         - 指導教員：和佐 泰明 准教授
+#         - 深層学習と制御理論の融合，Physics-Informed Neural Networks(PINNs)を活用した制御システムの研究
+#     - title: 学士課程
+#       institution: 早稲田大学 先進理工学部
+#       year: 2021年4月 - 2025年3月
+#       description:
+#         - 電気・情報生命工学科
+#         - 学士論文：「物理法則に基づく深層学習と自動微分を活用したデータ駆動型適応的PIDゲイン最適化」
+#     - title: 高等学校
+#       institution: 宮城県仙台二華高等学校
+#       year: 2018年4月 - 2021年3月
+#       description:
+#         - 普通科
+#     - title: 中学校
+#       institution: 宮城県仙台二華中学校
+#       year: 2015年4月 - 2018年3月
 
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+# - title: 研究・職歴
+#   type: time_table
+#   contents:
+#     - title: ソフトウェアエンジニア
+#       institution: 株式会社QunaSys
+#       year: 2024年4月 - 現在
+#       description:
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+#     - title: 金融テクノロジーインターン
+#       institution: 株式会社SmartTrade
+#       year: 2023年11月 - 現在
+#       description:
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+#     - title: BizDevインターン
+#       institution: 株式会社Algoage
+#       year: 2023年2月 - 2024年3月
+#       description:
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+# - title: 技術スキル
+#   type: list
+#   contents:
+#     - <u>プログラミング:</u> Python (熟練), Java, C, Rust
+#     - <u>深層学習:</u> PyTorch, TensorFlow, 自動微分, CUDA/GPU計算
+#     - <u>量子コンピューティング:</u> Quri-parts, Quri-Algo, Qulacs, Qiskit
+#     - <u>開発環境:</u> Docker, GitHub Actions, CI/CD, AWS
+#     - <u>専門分野:</u> 制御理論, Physics-Informed Neural Networks, 時系列解析

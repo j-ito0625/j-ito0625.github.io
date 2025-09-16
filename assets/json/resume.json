@@ -1,200 +1,230 @@
-{
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
-}
+// {
+//   "basics": {
+//     "name": "伊藤 潤成",
+//     "label": "研究者・ソフトウェアエンジニア",
+//     "image": "",
+//     "email": "junseiito0625@gmail.com",
+//     "phone": "",
+//     "url": "https://j-ito0625.github.io",
+//     "summary": "早稲田大学大学院で深層学習と制御理論の融合を研究。Physics-Informed Neural Networks(PINNs)を活用した制御システムの構築と、Sim2Real転移技術の開発に取り組む。",
+//     "location": {
+//       "address": "",
+//       "postalCode": "",
+//       "city": "東京",
+//       "countryCode": "JP",
+//       "region": "日本"
+//     },
+//     "profiles": [
+//       {
+//         "network": "GitHub",
+//         "username": "j-ito0625",
+//         "url": "https://github.com/j-ito0625"
+//       }
+//     ]
+//   },
+//   "work": [
+//     {
+//       "name": "株式会社QunaSys",
+//       "position": "ソフトウェアエンジニア",
+//       "url": "https://qunasys.com/",
+//       "startDate": "2024-04-01",
+//       "endDate": "",
+//       "summary": "量子コンピューティングライブラリQuri-partsの開発。量子演算子の効率的表現方法を考案・実装し、計算速度を約5倍に向上。ドキュメンテーション改善プロジェクトを主導。",
+//       "highlights": ["量子計算ライブラリ開発", "パフォーマンス最適化", "開発者体験向上"]
+//     },
+//     {
+//       "name": "株式会社SmartTrade",
+//       "position": "金融テクノロジーインターン",
+//       "url": "https://smarttrade.co.jp/",
+//       "startDate": "2023-11-01",
+//       "endDate": "",
+//       "summary": "高頻度取引アルゴリズムの設計・実装・最適化。Transformerベースの時系列予測モデルを提案・実装。Rustによるデータ処理パイプラインのボトルネック解消。",
+//       "highlights": ["機械学習モデル開発", "高頻度取引システム", "パフォーマンス最適化"]
+//     },
+//     {
+//       "name": "株式会社Algoage",
+//       "position": "BizDevインターン",
+//       "url": "https://algoage.dmm.com/",
+//       "startDate": "2023-02-01",
+//       "endDate": "2024-03-01",
+//       "summary": "LINEチャットボット開発のスクラムチーム参加。Notion APIを活用した社内システム構築・運用。",
+//       "highlights": ["スクラム開発", "チャットボット開発", "プロジェクト管理"]
+//     }
+//   ],
+//   "volunteer": [
+//     {
+//       "organization": "量子ソフトウェア勉強会",
+//       "location": "オンライン・大阪大学",
+//       "position": "参加学生",
+//       "url": "https://qsrh.jp/",
+//       "startDate": "2023-06-01",
+//       "endDate": "2024-02-01",
+//       "summary": "量子コンピューティングの理論から実装までを学ぶ集中プログラム。全参加者93名中上位成績を収め、大阪大学の超伝導量子コンピュータを使用した実験研究に参加。",
+//       "highlights": ["全認定課題正解で上位成績", "グループワークパート参加資格獲得（93名中7名）", "実機量子コンピュータでの実験研究"]
+//     }
+//   ],
+//   "education": [
+//     {
+//       "institution": "早稲田大学大学院 先進理工学研究科",
+//       "location": "東京, 日本",
+//       "url": "https://www.waseda.jp/",
+//       "area": "電気・情報生命専攻",
+//       "studyType": "修士課程",
+//       "startDate": "2025-04-01",
+//       "endDate": "",
+//       "score": "",
+//       "courses": ["深層学習と制御理論の融合", "Physics-Informed Neural Networks", "Sim2Real転移技術"]
+//     },
+//     {
+//       "institution": "早稲田大学 先進理工学部",
+//       "location": "東京, 日本",
+//       "url": "https://www.waseda.jp/",
+//       "area": "電気・情報生命工学科",
+//       "studyType": "学士課程",
+//       "startDate": "2021-04-01",
+//       "endDate": "2025-03-01",
+//       "score": "",
+//       "courses": ["制御理論", "深層学習", "データ駆動型制御"]
+//     }
+//   ],
+//   "awards": [
+//     {
+//       "title": "第12回計測自動制御学会制御部門マルチシンポジウム 口頭発表",
+//       "date": "2025-03-01",
+//       "awarder": "計測自動制御学会",
+//       "url": "https://mscs2025.sice-ctrl.jp/",
+//       "summary": "物理法則に基づく深層学習と自動微分を活用した適応的PIDゲイン最適化に関する研究発表"
+//     }
+//   ],
+//   "certificates": [
+//     {
+//       "name": "TOEIC",
+//       "date": "2024-01-01",
+//       "issuer": "ETS",
+//       "url": "",
+//       "icon": "fa-solid fa-language",
+//       "score": "930点"
+//     }
+//   ],
+//   "publications": [
+//     {
+//       "name": "物理法則に基づく深層学習と自動微分を活用した適応的PIDゲイン最適化",
+//       "publisher": "SICE 第12回 制御部門マルチシンポジウム予稿集",
+//       "releaseDate": "2025-03-04",
+//       "url": "https://mscs2025.sice-ctrl.jp/",
+//       "summary": "Physics-Informed Neural Networks（PINNs）と自動微分を利用した新しいPIDゲイン最適化手法を提案。PINNsによる予測モデルと自動微分による勾配計算により、システム非線形性を陽に考慮した適応的なゲイン調整を実現。"
+//     }
+//   ],
+//   "skills": [
+//     {
+//       "name": "プログラミング",
+//       "level": "上級",
+//       "icon": "fa-solid fa-code",
+//       "keywords": [
+//         "Python (熟練)",
+//         "Java",
+//         "C",
+//         "Rust"
+//       ]
+//     },
+//     {
+//       "name": "深層学習・機械学習",
+//       "level": "上級",
+//       "icon": "fa-solid fa-brain",
+//       "keywords": [
+//         "PyTorch",
+//         "TensorFlow",
+//         "自動微分",
+//         "CUDA/GPU計算",
+//         "Physics-Informed Neural Networks"
+//       ]
+//     },
+//     {
+//       "name": "量子コンピューティング",
+//       "level": "中級",
+//       "icon": "fa-solid fa-atom",
+//       "keywords": [
+//         "Quri-parts",
+//         "Quri-Algo",
+//         "Qulacs",
+//         "Qiskit"
+//       ]
+//     },
+//     {
+//       "name": "開発環境・ツール",
+//       "level": "上級",
+//       "icon": "fa-solid fa-tools",
+//       "keywords": [
+//         "Docker",
+//         "GitHub Actions",
+//         "CI/CD",
+//         "AWS"
+//       ]
+//     }
+//   ],
+//   "languages": [
+//     {
+//       "language": "日本語",
+//       "fluency": "ネイティブ",
+//       "icon": ""
+//     },
+//     {
+//       "language": "英語",
+//       "fluency": "中級（TOEIC 930点）",
+//       "icon": ""
+//     }
+//   ],
+//   "interests": [
+//     {
+//       "name": "Physical AI・Reality Gap",
+//       "icon": "fa-solid fa-robot",
+//       "keywords": [
+//         "シミュレーション環境で学習したAIモデルの実環境適用技術",
+//         "Data-Centric AIアプローチ",
+//         "制御理論の安定性保証と深層学習の適応性の融合"
+//       ]
+//     },
+//     {
+//       "name": "制御理論×深層学習",
+//       "icon": "fa-solid fa-cogs",
+//       "keywords": [
+//         "Physics-Informed Neural Networks (PINNs)",
+//         "適応型PID制御システム",
+//         "制御バリア関数とリアプノフ安定性理論"
+//       ]
+//     }
+//   ],
+//   "references": [
+//     {
+//       "name": "和佐 泰明 准教授",
+//       "icon": "fa-solid fa-user-graduate",
+//       "reference": "早稲田大学先進理工学部・大学院先進理工学研究科 指導教員。制御理論と深層学習の融合分野における研究指導。"
+//     }
+//   ],
+//   "projects": [
+//     {
+//       "name": "arXiv論文要約投稿BOT",
+//       "summary": "ArXiv APIとSemantic Scholar APIを活用し、『引用速度』指標による論文優先順位付けと大規模言語モデルによる要約を実装。研究室全体で活用中。",
+//       "highlights": ["自動論文収集・分類", "LLM活用要約", "Slack連携"],
+//       "startDate": "2024-12-01",
+//       "endDate": "",
+//       "url": ""
+//     },
+//     {
+//       "name": "研究室向けLaTeX論文執筆環境",
+//       "summary": "Docker化されたLaTeX執筆環境の構築。GitHub Actionsを活用したCI/CD環境により、環境構築時間を6時間から10分以下に短縮。",
+//       "highlights": ["Docker環境構築", "CI/CD自動化", "共同執筆効率化"],
+//       "startDate": "2024-12-01",
+//       "endDate": "2025-01-01",
+//       "url": ""
+//     },
+//     {
+//       "name": "書籍管理システム",
+//       "summary": "ISBNバーコード認識とSlack API連携による書籍管理システム。Google Books APIとNotion APIを統合し、書籍情報アクセス時間を90％削減。",
+//       "highlights": ["バーコード認識", "API統合", "効率化ツール"],
+//       "startDate": "2023-12-01",
+//       "endDate": "2024-03-01",
+//       "url": ""
+//     }
+//   ]
+// }

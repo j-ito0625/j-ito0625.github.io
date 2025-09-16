@@ -6,7 +6,7 @@ subtitle: English Version
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: ito.jpg
   image_circular: false
   more_info: >
     <p>555 your office number</p>
