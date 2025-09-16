@@ -4,8 +4,8 @@ title: about
 permalink: /
 custom_name: "伊藤 潤成 | Junsei Ito"
 subtitle: >
-  <p>早稲田大学 理工学術院 大学院 先進理工学研究科 電気・情報生命専攻 修士課程１年</p>
-  <p>システム制御研究室(<a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">和佐泰明研究室</a>)所属</p>
+  <p><strong>早稲田大学 理工学術院 大学院 先進理工学研究科 電気・情報生命専攻 修士課程１年</strong></p>
+  <p><strong>システム制御研究室(<a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">和佐泰明研究室</a>)所属</strong></p>
 
 profile:
   align: right
