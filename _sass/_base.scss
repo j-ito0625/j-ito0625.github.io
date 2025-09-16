@@ -4,6 +4,10 @@
 
 // Typography
 
+body {
+  font-family: $font-family-sans-serif;
+}
+
 p,
 h1,
 h2,
@@ -1421,5 +1425,67 @@ figure.cover {
   /* mouse over link */
   a.cover-link:hover {
     color: #23212d !important;
+  }
+}
+
+// Research section styles
+.research-section {
+  border: 1px solid var(--global-divider-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  background-color: var(--global-bg-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    color: var(--global-text-color);
+  }
+
+  .keywords {
+    padding: 1rem;
+    background-color: var(--global-card-bg-color);
+    border-radius: 6px;
+    border-left: 4px solid var(--global-theme-color);
+
+    strong {
+      color: var(--global-text-color);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+
+    span {
+      color: var(--global-text-color);
+      line-height: 1.5;
+    }
+  }
+
+  .highlight-research {
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
+
+// Adjust research section layout based on profile image position
+@media (min-width: 576px) {
+  .post article {
+    .profile.float-right ~ .clearfix .research-section {
+      margin-right: calc(30% + 1rem);
+    }
+
+    .profile.float-left ~ .clearfix .research-section {
+      margin-left: calc(30% + 1rem);
+    }
   }
 }

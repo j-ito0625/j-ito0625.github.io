@@ -4,7 +4,9 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
+      {% if page.custom_name %}
+        <span style="font-weight: 600;">{{ page.custom_name }}</span>
+      {% elsif site.title == 'blank' %}
         <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
@@ -43,7 +45,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        news <span style="font-size: 0.6em;">(<a href="{{ '/news/' | relative_url }}" style="color: blue;">more</a>)</span>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
