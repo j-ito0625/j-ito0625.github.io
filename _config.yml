@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: "Junsei Ito - Control Theory & Physics-Informed AI Research" # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Junsei
 middle_name:
 last_name: Ito
@@ -11,7 +11,7 @@ contact_note: >
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Graduate student at Waseda University researching systems control theory, physics-informed neural networks, and data-driven control systems.
 footer_text: >
-keywords: "制御理論, PINN, physics-informed neural networks, 早稲田大学, システム制御, AI, 機械学習, 研究者, control theory, Waseda University"
+keywords: "制御理論, PINNs, physics-informed neural networks, 早稲田大学, システム制御, AI, 機械学習, 研究者, control theory, Waseda University"
 lang: ja # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
