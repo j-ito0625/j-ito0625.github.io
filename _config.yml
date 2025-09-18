@@ -7,8 +7,10 @@ first_name: Junsei
 middle_name:
 last_name: Ito
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
+  links.
+description: >  # the ">" symbol means to ignore newlines until "footer_text:"  
+  Graduate student at Waseda University researching systems control theory, physics-informed neural networks, and data-driven control systems.
+ 
 footer_text: >
 keywords: "制御理論, PINNs, physics-informed neural networks, 早稲田大学, システム制御, AI, 機械学習, 研究者, control theory, Waseda University"
 lang: ja # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -192,6 +194,7 @@ exclude:
   - readme_preview/
   - vendor
   - temp/
+  - archive/
 keep_files:
   - CNAME
   - .nojekyll
