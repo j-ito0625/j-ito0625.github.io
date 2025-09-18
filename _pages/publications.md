@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: 
+description:
 nav: true
 nav_order: 3
 ---
@@ -16,7 +16,6 @@ nav_order: 3
 
 <!-- 国際学会 | International Conferences -->
 <h2>国際学会 | International Conferences</h2>
-
 
 <!-- 国内学会 | Domestic Conferences -->
 <h2>国内学会 | Domestic Conferences</h2>

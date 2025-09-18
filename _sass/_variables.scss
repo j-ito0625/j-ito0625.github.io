@@ -38,7 +38,14 @@ $code-bg-color-light: rgba($purple-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font families
-$font-family-sans-serif: "Roboto", "Noto Sans JP", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif !default;
+$font-family-sans-serif:
+  "Roboto",
+  "Noto Sans JP",
+  -apple-system,
+  BlinkMacSystemFont,
+  "Helvetica Neue",
+  Arial,
+  sans-serif !default;
 $font-family-serif: "Roboto Slab", "Noto Serif JP", Georgia, "Times New Roman", Times, serif !default;
 
 // Font awesome location
@@ -56,4 +63,4 @@ $back-to-top-height: $back-to-top-diameter;
 $back-to-top-width: $back-to-top-diameter;
 
 // ito no iro
-$mydarkblue: #0B346E;
+$mydarkblue: #0b346e;
