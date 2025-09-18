@@ -12,7 +12,7 @@ node_modules/
 vendor
 .idea
 
-*claude.md
+CLAUDE.md
 
 /temp/
 /archive/
