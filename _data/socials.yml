@@ -50,22 +50,22 @@ github_username: j-ito0625 # your GitHub user name
 # x_username: # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
-custom_social_0: # can be any name here other than the ones already defined above
-  logo: ../assets/img/waseda-Univ-logo.png # can be png, svg, jpg
-  title: Waseda Univ.
-  url: https://www.waseda.jp/top/
+# custom_social_0: # can be any name here other than the ones already defined above
+#   logo: ../assets/img/waseda-Univ-logo.png # can be png, svg, jpg
+#   title: Waseda Univ.
+#   url: https://www.waseda.jp/top/
 
-custom_social_1: # can be any name here other than the ones already defined above
-  logo: ../assets/img/waseda-fse-logo.png # can be png, svg, jpg
-  title: Waseda Univ. fsci
-  url: https://www.waseda.jp/fsci/
+# custom_social_1: # can be any name here other than the ones already defined above
+#   logo: ../assets/img/waseda-fse-logo.png # can be png, svg, jpg
+#   title: Waseda Univ. fsci
+#   url: https://www.waseda.jp/fsci/
 
-custom_social_2: # can be any name here other than the ones already defined above
-  logo: ../assets/img/waseda-ase-logo.png # can be png, svg, jpg
-  title: Waseda Univ. ase
-  url: https://www.ase.sci.waseda.ac.jp/
+# custom_social_2: # can be any name here other than the ones already defined above
+#   logo: ../assets/img/waseda-ase-logo.png # can be png, svg, jpg
+#   title: Waseda Univ. ase
+#   url: https://www.ase.sci.waseda.ac.jp/
 
-custom_social_3: # can be any name here other than the ones already defined above
-  logo: ../assets/img/waseda-eb-image.png # can be png, svg, jpg
-  title: Waseda Univ. eb
-  url: https://www.eb.waseda.ac.jp/
+# custom_social_3: # can be any name here other than the ones already defined above
+#   logo: ../assets/img/waseda-eb-image.png # can be png, svg, jpg
+#   title: Waseda Univ. eb
+#   url: https://www.eb.waseda.ac.jp/
