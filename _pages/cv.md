@@ -208,7 +208,7 @@ description:
       <div class="info-content">
         科学技術振興機構 戦略的創造研究推進事業 ACT-X<br>
         研究領域：<a href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html" style="color: blue;">[次世代AI・数理情報] 次世代AIを築く数理・情報科学の革新</a><br>
-        研究期間：2025年10月 - 2028年3月（予定）
+        研究期間：2025年10月 - 2028年3月（予定）<br>
         関連リンク：<a href="https://www.waseda.jp/inst/research/news/82130" style="color: blue;">早稲田大学プレスリリース</a>，<a href="https://research-er.jp/projects/view/1309578" style="color: blue;">日本の研究.com</a>，
       </div>
     </div>
