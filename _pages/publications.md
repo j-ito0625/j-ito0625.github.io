@@ -11,6 +11,25 @@ nav_order: 3
 
 <div class="publications">
 
+<h2>プレプリント | Preprint 
+<div class="publication-list">
+  <div class="publication-item">
+    <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
+    <h3>Data-Driven Adaptive PID Control Based on Physics-Informed Neural Networks</h3>
+    <div class="journal">arXiv preprint arXiv:2510.04591</div>
+    <div class="details">October 2025</div>
+    <a href="https://arxiv.org/abs/2510.04591" target="_blank" style="margin-right: 1rem;">arXiv</a>
+    <button class="bibtex-toggle" onclick="toggleBibtex(this)">Show BibTeX</button>
+    <div class="bibtex-content">@article{ito2025adaptive,
+  title={Data-Driven Adaptive PID Control Based on Physics-Informed Neural Networks},
+  author={Junsei Ito and Yasuaki Wasa},
+  journal={arXiv preprint arXiv:2510.04591},
+  year={2025},
+  month={October},
+  url={https://arxiv.org/abs/2510.04591}
+}</div>
+  </div>
+</div>
 <!-- 学術論文誌 | Journal Articles -->
 <h2>学術論文誌 | Journal Articles</h2>
 
