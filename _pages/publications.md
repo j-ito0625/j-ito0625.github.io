@@ -11,7 +11,7 @@ nav_order: 3
 
 <div class="publications">
 
-<h2>プレプリント | Preprint 
+<h2>プレプリント | Preprint </h2>
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
