@@ -44,7 +44,8 @@ nav_order: 3
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
-    <h3>Designable Phase Transition-Driven Coverage Control</h3>
+    <!-- <h3>Designable Phase Transition-Driven Coverage Control</h3> -->
+    <h3>TBA</h3>
     <div class="journal">23rd IFACWorld Congress, Under Preparation.</div>
     <div class="details">Korea,23–28th, Aug., 2026</div>
   </div>
