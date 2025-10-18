@@ -18,7 +18,9 @@ nav_order: 3
     <h3>Data-Driven Adaptive PID Control Based on Physics-Informed Neural Networks</h3>
     <div class="journal">arXiv preprint arXiv:2510.04591</div>
     <div class="details">October 2025</div>
-    <a href="https://arxiv.org/abs/2510.04591" target="_blank" style="margin-right: 1rem;">arXiv</a>
+    <a href="https://arxiv.org/abs/2510.04591" target="_blank" style="margin-right: 1rem;">
+      <img src="/assets/img/arxiv-logo.png" alt="arXiv" style="height: 1.5em; vertical-align: middle;">
+    </a>
     <button class="abstract-toggle" onclick="toggleAbstract(this)">Show Abstract</button>
     <button class="bibtex-toggle" onclick="toggleBibtex(this)">Show BibTeX</button>
     <div class="abstract-content">
@@ -212,8 +214,7 @@ nav_order: 3
 
 <script>
 function toggleAbstract(button) {
-  const bibtexButton = button.nextElementSibling;
-  const content = bibtexButton.nextElementSibling;
+  const content = button.parentElement.querySelector('.abstract-content');
   if (content.classList.contains('show')) {
     content.classList.remove('show');
     button.textContent = 'Show Abstract';
@@ -224,7 +225,7 @@ function toggleAbstract(button) {
 }
 
 function toggleBibtex(button) {
-  const content = button.nextElementSibling;
+  const content = button.parentElement.querySelector('.bibtex-content');
   if (content.classList.contains('show')) {
     content.classList.remove('show');
     button.textContent = 'Show BibTeX';
