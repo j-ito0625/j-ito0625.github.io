@@ -39,7 +39,14 @@ nav_order: 3
 
 <!-- 国際学会 | International Conferences -->
 <h2>国際学会 | International Conferences</h2>
-
+<div class="publication-list">
+  <div class="publication-item">
+    <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
+    <h3>Designable Phase Transition-Driven Coverage Control</h3>
+    <div class="journal">23rd IFACWorld Congress, Under Preparation.</div>
+    <div class="details">Korea,23–28th, Aug., 2026</div>
+  </div>
+</div>
 <!-- 国内学会 | Domestic Conferences -->
 <h2>国内学会 | Domestic Conferences</h2>
 <div class="publication-list">
