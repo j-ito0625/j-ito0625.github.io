@@ -71,8 +71,6 @@ nav_order: 3
 }</div>
   </div>
 </div>
-
-<h2>国内学会 | Domestic Conferences</h2>
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">伊藤潤成</span>, 和佐泰明</div>
