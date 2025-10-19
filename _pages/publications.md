@@ -120,7 +120,6 @@ nav_order: 3
   margin-bottom: 2rem;
   padding: 1rem;
   border-left: 3px solid var(--global-theme-color);
-  background: #f8f9fa;
 }
 
 @media (prefers-color-scheme: dark) {
