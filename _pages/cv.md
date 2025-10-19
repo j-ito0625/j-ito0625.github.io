@@ -42,19 +42,17 @@ description:
 .info-card {
   background: white;
   border-radius: 0.5rem;
-  box-shadow: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  border-left: 3px solid var(--global-theme-color);
-  border-top: none;
-  border-right: none;
-  border-bottom: none;
+  border: 1px solid #e0e0e0;
 }
 
 @media (prefers-color-scheme: dark) {
   .info-card {
-    background: rgba(255, 255, 255, 0.03);
-    border-left: 3px solid var(--global-theme-color);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   }
 }
 
