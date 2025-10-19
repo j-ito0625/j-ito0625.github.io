@@ -137,7 +137,7 @@ nav_order: 3
 
 @media (prefers-color-scheme: dark) {
   .publication-item h3 {
-    color: #66b3ff;
+    color: blue;
   }
 }
 
