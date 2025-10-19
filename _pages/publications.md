@@ -131,7 +131,7 @@ nav_order: 3
 
 .publication-item h3 {
   margin: 0 0 0.5rem 0;
-  color: #0066cc;
+  color: blue;
   font-weight: bold;
   font-size: 1.1rem;
 }
