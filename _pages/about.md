@@ -6,7 +6,7 @@ custom_name: "伊藤 潤成 | Junsei Ito"
 subtitle: >
   <p><strong>早稲田大学 理工学術院 大学院 先進理工学研究科 電気・情報生命専攻 修士課程１年</strong></p>
   <p><strong>システム制御研究室(<a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">和佐泰明研究室</a>)所属</strong></p>
-
+  <p><strong>ACT-X研究者</strong></p>
 profile:
   align: right
   image: ito3.jpg
@@ -29,7 +29,7 @@ announcements:
 <div class="research-section">
   <!-- <h4>研究について</h4> -->
   <!-- <p>システム制御理論を軸とした制御×情報学×物理学の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，物理学(Physical)が提供する普遍的な法則と，情報学(Cyber)が可能にする学習・推定能力を，制御理論の枠組みで統合することで新たな解決策を探求しています．</p> -->
-  <p>システム制御理論を軸とした<span style="font-weight: bold; color:　black;">制御理論</span>×<span style="font-weight: bold; color: #0B346E;">情報科学</span>×<span style="font-weight: bold; color: #B9121B;">物理学</span>の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，<span style="font-weight: bold; color: #B9121B;">物理学(Physical)</span>が提供する普遍的な法則と，<span style="font-weight: bold; color: #0B346E;">情報科学(Cyber)</span>が可能にするデータに基づく学習・推定能力を，制御理論の枠組みで統合することで新たな解決策を探求しています．</p>
+  <p>システム制御理論を軸とした<span style="font-weight: bold; color:　black;">制御理論</span>×<span style="font-weight: bold; color: #0B346E;">情報科学</span>×<span style="font-weight: bold; color: #B9121B;">物理学</span>の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，<span style="font-weight: bold; color: #B9121B;">物理学(Physics)</span>が提供する普遍的な法則と，<span style="font-weight: bold; color: #0B346E;">情報科学(Cyber)</span>が可能にするデータに基づく学習・推定能力を，制御理論の枠組みで統合することで新たな解決策を探求しています．</p>
 
   <div class="keywords">
     <strong>キーワード(最近の興味も含む)：</strong>

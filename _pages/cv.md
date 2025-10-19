@@ -20,6 +20,13 @@ description:
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
+
+@media (prefers-color-scheme: dark) {
+  .cv-section h3 {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
 .info-table {
   margin-bottom: 1.5rem;
 }
@@ -40,6 +47,15 @@ description:
   margin-bottom: 1.5rem;
   border: 1px solid #e0e0e0;
 }
+
+@media (prefers-color-scheme: dark) {
+  .info-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+
 .info-item {
   margin-bottom: 1rem;
 }
@@ -55,11 +71,25 @@ description:
   color: #333;
   line-height: 1.5;
 }
+
+@media (prefers-color-scheme: dark) {
+  .info-content {
+    color: #e0e0e0;
+  }
+}
+
 .timeline-item {
   margin-bottom: 1.2rem;
   padding-left: 1rem;
   border-left: 2px solid #e0e0e0;
 }
+
+@media (prefers-color-scheme: dark) {
+  .timeline-item {
+    border-left: 2px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
 .timeline-item .header {
   display: flex;
   align-items: baseline;
@@ -80,6 +110,13 @@ description:
   margin: 0 0.5rem;
   color: #999;
 }
+
+@media (prefers-color-scheme: dark) {
+  .timeline-item .separator {
+    color: #888;
+  }
+}
+
 .timeline-item .title {
   font-weight: 600;
 }
@@ -90,12 +127,27 @@ description:
   margin-top: 0.3rem;
   padding-left: calc(160px + 1rem + 0.5rem + 0.5rem); /* period width + margins + separator */
 }
+
+@media (prefers-color-scheme: dark) {
+  .timeline-item .institution,
+  .timeline-item .description {
+    color: #999;
+  }
+}
+
 .timeline-item .institution {
   font-style: italic;
 }
 .timeline-item .description {
   color: #333;
 }
+
+@media (prefers-color-scheme: dark) {
+  .timeline-item .description {
+    color: #ccc;
+  }
+}
+
 .research-list {
   margin-top: 0.5rem;
 }
@@ -122,6 +174,13 @@ description:
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+@media (prefers-color-scheme: dark) {
+  .profile-photo img {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+}
+
 @media (max-width: 768px) {
   .profile-photo {
     float: none;
@@ -209,6 +268,7 @@ description:
         科学技術振興機構 戦略的創造研究推進事業 ACT-X<br>
         研究領域：<a href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html" style="color: blue;">[次世代AI・数理情報] 次世代AIを築く数理・情報科学の革新</a><br>
         研究期間：2025年10月 - 2028年3月（予定）<br>
+        予算：4,500,000 JPY + monthly salary　<br>
         関連リンク：<a href="https://www.waseda.jp/inst/research/news/82130" style="color: blue;">早稲田大学プレスリリース</a>，<a href="https://research-er.jp/projects/view/1309578" style="color: blue;">日本の研究.com</a>，
       </div>
     </div>
