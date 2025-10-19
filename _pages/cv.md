@@ -57,7 +57,7 @@ description:
   margin-bottom: 0.3rem;
 }
 .info-content {
-  color: #333;
+  color: #000000;
   line-height: 1.5;
 }
 

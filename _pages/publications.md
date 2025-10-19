@@ -192,8 +192,8 @@ nav_order: 3
 
 .abstract-content {
   font-family: inherit;
-  background: #f0f4f8;
-  color: #2d3748;
+  background: #e8f5e9;
+  color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -205,6 +205,8 @@ nav_order: 3
 
 .bibtex-content {
   font-family: 'Courier New', monospace;
+  background: #e8f5e9;
+  color: #000000;
 }
 
 @media (prefers-color-scheme: dark) {
