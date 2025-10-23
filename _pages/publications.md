@@ -182,8 +182,6 @@ nav_order: 3
   display: none;
   margin-top: 1rem;
   padding: 1rem;
-  background: #2d3748;
-  color: #e2e8f0;
   border-radius: 3px;
   font-size: 0.9rem;
   white-space: pre-wrap;
