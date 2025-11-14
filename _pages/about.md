@@ -35,11 +35,11 @@ html[data-theme="dark"] a[style*="color: blue"] {
 <div class="research-section">
   <!-- <h4>研究について</h4> -->
   <!-- <p>システム制御理論を軸とした制御×情報学×物理学の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，物理学(Physical)が提供する普遍的な法則と，情報学(Cyber)が可能にする学習・推定能力を，制御理論の枠組みで統合することで新たな解決策を探求しています．</p> -->
-  <p>システム制御理論を軸とした<span style="font-weight: bold; color:　black;">制御理論</span>×<span style="font-weight: bold; color: #0B346E;">情報科学</span>×<span style="font-weight: bold; color: #B9121B;">物理学</span>の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，<span style="font-weight: bold; color: #B9121B;">物理学(Physics)</span>が提供する普遍的な法則と，<span style="font-weight: bold; color: #0B346E;">情報科学(Cyber)</span>が可能にするデータに基づく学習・推定能力を，制御理論の枠組みで統合することで新たな解決策を探求しています．</p>
+  <p>システム制御理論を軸とした<span style="font-weight: bold; color:　black;">制御理論</span>×<span style="font-weight: bold; color: #0B346E;">情報科学</span>×<span style="font-weight: bold; color: #B9121B;">物理学</span>の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，<span style="font-weight: bold; color: #B9121B;">物理学(Physics)</span>が提供する普遍的な法則と，<span style="font-weight: bold; color: #0B346E;">情報科学(Cyber)</span>が可能にするデータに基づく学習・推定能力を，システム制御理論の枠組みで統合することで新たな解決策を探求しています．</p>
 
   <div class="keywords">
     <strong>キーワード(最近の興味も含む)：</strong>
-    <span>システム制御理論，Physics-Informed Neural Networks，Diffusion Model, Physical AI，Sim2Real，Active Matter, Information Thermodynamics</span>
+    <span>システム制御理論，Physics-Informed Neural Networks，Diffusion Model, Physical AI，Sim2Real，Information Thermodynamics</span>
   </div>
 </div>
 
