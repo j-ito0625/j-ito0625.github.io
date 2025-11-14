@@ -36,10 +36,10 @@ nav_order: 3
   </div>
 </div>
 <!-- 学術論文誌 | Journal Articles -->
-<h2>学術論文誌 | Journal Articles</h2>
+<h2>Journal Articles</h2>
 
 <!-- 国際学会 | International Conferences -->
-<h2>国際学会 | International Conferences</h2>
+<h2>International Conferences</h2>
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
@@ -49,7 +49,7 @@ nav_order: 3
   </div>
 </div>
 <!-- 国内学会 | Domestic Conferences -->
-<h2>国内学会 | Domestic Conferences</h2>
+<h2>Domestic Conferences</h2>
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">伊藤潤成</span>, 和佐泰明</div>
@@ -95,7 +95,7 @@ nav_order: 3
 </div>
 
 <!-- その他 | Others -->
-<h2>その他 | Others</h2>
+<h2>Others</h2>
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">伊藤潤成</span></div>
