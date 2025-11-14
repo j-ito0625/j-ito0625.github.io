@@ -54,7 +54,7 @@ nav_order: 3
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">伊藤潤成</span>, 和佐泰明</div>
     <h3>群れの相転移現象に基づく動的環境適応のための自律分散マルチエージェント制御</h3>
-    <div class="details">第28回情報論的学習理論ワークショップ, 沖縄, 2025年11月12-15日</div>
+    <div class="details">第28回情報論的学習理論ワークショップ, 2b-R-37, 沖縄, 2025年11月12-15日</div>
     <button class="abstract-toggle" onclick="toggleAbstract(this)">Show Abstract</button>
     <button class="bibtex-toggle" onclick="toggleBibtex(this)">Show BibTeX</button>
     <div class="abstract-content">
