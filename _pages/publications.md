@@ -198,6 +198,7 @@ html[data-theme="dark"] .abstract-content {
   background: #e8f5e9;
   color: #000000;
   position: relative;
+  padding-top: 3rem;
 }
 
 html[data-theme="dark"] .bibtex-content {
