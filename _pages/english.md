@@ -45,7 +45,14 @@ description:
 }
 
 html[data-theme="dark"] .info-content {
-  color: #e0e0e0;
+  color: white;
+}
+
+html[data-theme="dark"] .info-card {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  padding: 0;
 }
 .timeline-item {
   margin-bottom: 1.2rem;
@@ -87,6 +94,11 @@ html[data-theme="dark"] .info-content {
 }
 .timeline-item .description {
   color: #333;
+}
+
+html[data-theme="dark"] .timeline-item .institution,
+html[data-theme="dark"] .timeline-item .description {
+  color: white;
 }
 .research-list {
   margin-top: 0.5rem;
