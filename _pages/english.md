@@ -43,6 +43,10 @@ description:
   color: #333;
   line-height: 1.5;
 }
+
+html[data-theme="dark"] .info-content {
+  color: #e0e0e0;
+}
 .timeline-item {
   margin-bottom: 1.2rem;
   padding-left: 1rem;

@@ -61,10 +61,8 @@ description:
   line-height: 1.5;
 }
 
-@media (prefers-color-scheme: dark) {
-  .info-content {
-    color: #e0e0e0;
-  }
+html[data-theme="dark"] .info-content {
+  color: #e0e0e0;
 }
 
 .timeline-item {
