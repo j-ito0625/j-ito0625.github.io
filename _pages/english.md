@@ -141,6 +141,10 @@ html[data-theme="dark"] .info-content {
 .research-section {
   margin-bottom: 2rem;
 }
+
+html[data-theme="dark"] a[style*="color: blue"] {
+  color: var(--global-theme-color) !important;
+}
 </style>
 
 <div class="profile-and-info">

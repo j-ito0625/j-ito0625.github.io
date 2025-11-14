@@ -134,7 +134,7 @@ html[data-theme="dark"] .publication-item {
 }
 
 html[data-theme="dark"] .publication-item h3 {
-  color: var(--global-theme-color);
+  color: white;
 }
 
 .publication-item .authors {

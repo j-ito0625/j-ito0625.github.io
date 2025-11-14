@@ -150,6 +150,10 @@ html[data-theme="dark"] .info-content {
     text-align: center;
   }
 }
+
+html[data-theme="dark"] a[style*="color: blue"] {
+  color: var(--global-theme-color) !important;
+}
 </style>
 
 <div class="profile-photo">
