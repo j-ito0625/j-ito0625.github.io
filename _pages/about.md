@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 custom_name: "伊藤 潤成 | Junsei Ito"
 subtitle: >
