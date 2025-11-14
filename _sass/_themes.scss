@@ -122,6 +122,11 @@ html[data-theme="dark"] {
   .only-dark {
     display: block;
   }
+
+  a[style*="color: blue"],
+  a[style*="color:blue"] {
+    color: #DAB440 !important;
+  }
 }
 
 html[data-theme-setting="dark"] {
