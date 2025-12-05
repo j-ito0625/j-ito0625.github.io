@@ -194,6 +194,10 @@ html[data-theme="dark"] a[style*="color: blue"] {
       <td>E-mail</td>
       <td>junseiito0625 [at] gmail.com</td>
     </tr>
+    <tr>
+      <td>links</td>
+      <td><a href="https://researchmap.jp/junsei-ito" style="color: blue;">researchmap</a>, <a href="https://github.com/j-ito0625" style="color: blue;">Github</a></td>
+    </tr>
   </table>
 </div>
 
