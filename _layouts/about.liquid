@@ -45,7 +45,7 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        news <span style="font-size: 0.6em;">(<a href="{{ '/news/' | relative_url }}" style="color: blue;">more</a>)</span>
+        news <span style="font-size: 0.6em;">(<a href="{{ '/news/' | relative_url }}" style="color: blue;">more</a>)</span> <span style="font-size: 0.5em;">* : Upcoming Conferences</span>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
