@@ -273,10 +273,10 @@ html[data-theme="dark"] a[style*="color: blue"] {
 
   <h4>企業での開発経験</h4>
   <ul>
-    <li><strong><a href="https://qunasys.com/" style="color: blue;">株式会社QunaSys</a></strong> (2024年3月 - 現在)<br>
+    <li><strong><a href="https://qunasys.com/" style="color: blue;">株式会社QunaSys</a></strong> (2024年3月 - 2025年10月)<br>
       量子計算ソフトウェア開発</li>
-    <li><strong>株式会社SmartTrade </strong> (2023年11月 - 現在)<br>
-      金融市場データ時系列予測モデル開発</li>
+    <!-- <li><strong>株式会社SmartTrade </strong> (2023年11月 - 現在)<br>
+      金融市場データ時系列予測モデル開発</li> -->
   </ul>
 
   <h4>教育活動</h4>

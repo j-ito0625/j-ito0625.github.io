@@ -9,7 +9,7 @@ subtitle: >
   <p><strong>ACT-X研究者</strong></p>
 profile:
   align: right
-  image: ito3.jpg
+  image: ito4.JPEG
   image_circular: False # crops the image to make it circular
   more_info: >
 selected_papers: false # includes a list of papers marked as "selected={true}"
