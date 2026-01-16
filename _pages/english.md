@@ -291,13 +291,13 @@ html[data-theme="dark"] a[style*="color: blue"] {
       Research on pulse optimization for superconducting quantum computers using JAX, quantum gate operation optimization using automatic differentiation</li>
   </ul>
 
-  <h4>Industry Experience</h4>
+  <!-- <h4>Industry Experience</h4>
   <ul>
     <li><strong><a href="https://qunasys.com/" style="color: blue;">QunaSys Inc.</a></strong> (March 2024 - Present)<br>
       Quantum computing software development</li>
     <li><strong>SmartTrade Inc.</strong> (November 2023 - Present)<br>
       Time-series prediction model development for financial market data</li>
-  </ul>
+  </ul> -->
 
   <h4>Teaching Activities</h4>
   <ul>
