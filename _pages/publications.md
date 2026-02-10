@@ -39,13 +39,13 @@ nav_order: 3
 <h2>Journal Articles</h2>
 
 <!-- 国際学会 | International Conferences -->
-<h2>International Conferences</h2>
+<h2>Peer-Reviewed Conference Proceedings</h2>
 <div class="publication-list">
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
     <!-- <h3>Designable Phase Transition-Driven Coverage Control</h3> -->
-    <h3>TBA</h3>
-    <div class="details">23rd IFACWorld Congress, Under Preparation, Korea, 23–28th, Aug., 2026</div>
+    <h3>Phase-Transition-Driven Distributed Coverage Control</h3>
+    <div class="details">23rd IFACWorld Congress, submitted, Korea, 23–28th, Aug., 2026</div>
   </div>
 </div>
 <!-- 国内学会 | Domestic Conferences -->
@@ -54,8 +54,16 @@ nav_order: 3
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">伊藤潤成</span>, 和佐泰明</div>
     <!-- <h3>Designable Phase Transition-Driven Coverage Control</h3> -->
+    <h3>フローマッチングによる移動ロボットの制御系設計</h3>
+    <div class="details"> 2026年度人工知能学会全国大会（第40回）論文集, under preparation, 群馬, 8--12th, June., 2026</div>
+  </div>
+</div>
+<div class="publication-list">
+  <div class="publication-item">
+    <div class="authors"><span class="highlight-author">伊藤潤成</span>, 和佐泰明</div>
+    <!-- <h3>Designable Phase Transition-Driven Coverage Control</h3> -->
     <h3>相転移現象に基づく分散被覆制御</h3>
-    <div class="details"> SICE 第13回 制御部門マルチシンポジウム予稿集, under preparation, 富山, 4th, Mar., 2026</div>
+    <div class="details"> SICE 第13回 制御部門マルチシンポジウム予稿集, submitted, 富山, 4th, Mar., 2026</div>
   </div>
 </div>
 <div class="publication-list">
