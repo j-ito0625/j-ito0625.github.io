@@ -5,14 +5,20 @@ title: Publications
 description:
 nav: true
 nav_order: 3
+_styles: ".post-title { font-weight: bold !important; }"
 ---
 
 <!-- _pages/publications.md -->
 
 <div class="publications">
 
-<h2>Preprint </h2>
+<h2>Preprint / Submitted Works</h2>
 <div class="publication-list">
+  <div class="publication-item">
+    <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
+    <h3>Partial Observation Amplifies Model Mismatch in MAP Estimation via Information-Curvature Margins</h3>
+    <div class="details">IEEE Control Systems Letters, submitted, 2026</div>
+  </div>
   <div class="publication-item">
     <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
     <h3>Data-Driven Adaptive PID Control Based on Physics-Informed Neural Networks</h3>
@@ -63,7 +69,7 @@ nav_order: 3
     <div class="authors"><span class="highlight-author">伊藤潤成</span>, 和佐泰明</div>
     <!-- <h3>Designable Phase Transition-Driven Coverage Control</h3> -->
     <h3>相転移現象に基づく分散被覆制御</h3>
-    <div class="details"> SICE 第13回 制御部門マルチシンポジウム予稿集, submitted, 富山, 4th, Mar., 2026</div>
+    <div class="details">SICE 第13回 制御部門マルチシンポジウム予稿集, 1PS-43, 富山, 4th, Mar., 2026</div>
   </div>
 </div>
 <div class="publication-list">
@@ -131,191 +137,4 @@ nav_order: 3
 
 </div>
 
-<style>
-.publication-item {
-  margin-bottom: 2rem;
-  padding: 1rem;
-  border-left: 3px solid var(--global-theme-color);
-}
-
-html[data-theme="dark"] .publication-item {
-  background: rgba(255, 255, 255, 0.05);
-}
-
-.publication-item h3 {
-  margin: 0 0 0.5rem 0;
-  color: blue;
-  font-weight: bold;
-  font-size: 1.1rem;
-}
-
-html[data-theme="dark"] .publication-item h3 {
-  color: white;
-}
-
-.publication-item .authors {
-  margin-bottom: 0.5rem;
-}
-
-.publication-item .authors .highlight-author {
-  font-weight: bold;
-}
-
-.publication-item .details {
-  font-style: italic;
-  color: #666;
-  margin-bottom: 1rem;
-}
-
-html[data-theme="dark"] .publication-item .details {
-  color: #999;
-}
-
-.abstract-toggle,
-.bibtex-toggle {
-  background: var(--global-theme-color);
-  color: white;
-  border: none;
-  padding: 0.3rem 0.8rem;
-  border-radius: 3px;
-  cursor: pointer;
-  font-size: 0.9rem;
-}
-
-.abstract-toggle:hover,
-.bibtex-toggle:hover {
-  opacity: 0.8;
-}
-
-.abstract-content,
-.bibtex-content {
-  display: none;
-  margin-top: 1rem;
-  padding: 1rem;
-  border-radius: 3px;
-  font-size: 0.9rem;
-  white-space: pre-wrap;
-  overflow-x: auto;
-}
-
-.abstract-content {
-  font-family: inherit;
-  background: #e8f5e9;
-  color: #000000;
-}
-
-html[data-theme="dark"] .abstract-content {
-  background: rgba(255, 255, 255, 0.05);
-  color: #e2e8f0;
-}
-
-.bibtex-content {
-  font-family: 'Courier New', monospace;
-  background: #e8f5e9;
-  color: #000000;
-  position: relative;
-  padding-top: 3rem;
-}
-
-html[data-theme="dark"] .bibtex-content {
-  background: rgba(0, 0, 0, 0.3);
-  color: #a0d8f1;
-}
-
-.abstract-content.show,
-.bibtex-content.show {
-  display: block;
-}
-
-.copy-bibtex-btn {
-  position: absolute;
-  top: 0.5rem;
-  right: 0.5rem;
-  background: var(--global-theme-color);
-  color: white;
-  border: none;
-  padding: 0.4rem 0.8rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.85rem;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  transition: all 0.2s ease;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-.copy-bibtex-btn:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
-  opacity: 0.9;
-}
-
-.copy-bibtex-btn:active {
-  transform: translateY(0);
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
-}
-
-.copy-bibtex-btn.copied {
-  background: #4caf50;
-}
-
-.post-title {
-  font-weight: bold !important;
-  margin-top: 0.1em !important;
-  margin-bottom: 1em !important;
-}
-
-.publications h2 {
-  color: var(--global-theme-color);
-  border-bottom: 2px solid var(--global-theme-color);
-  padding-bottom: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-</style>
-
-<script>
-function toggleAbstract(button) {
-  const content = button.parentElement.querySelector('.abstract-content');
-  if (content.classList.contains('show')) {
-    content.classList.remove('show');
-    button.textContent = 'Show Abstract';
-  } else {
-    content.classList.add('show');
-    button.textContent = 'Hide Abstract';
-  }
-}
-
-function toggleBibtex(button) {
-  const content = button.parentElement.querySelector('.bibtex-content');
-  if (content.classList.contains('show')) {
-    content.classList.remove('show');
-    button.textContent = 'Show BibTeX';
-  } else {
-    content.classList.add('show');
-    button.textContent = 'Hide BibTeX';
-  }
-}
-
-function copyBibtex(button) {
-  const bibtexContent = button.parentElement.textContent.replace(button.textContent, '').trim();
-
-  navigator.clipboard.writeText(bibtexContent).then(() => {
-    const originalHTML = button.innerHTML;
-    button.innerHTML = '<span>✓</span> Copied!';
-    button.classList.add('copied');
-
-    setTimeout(() => {
-      button.innerHTML = originalHTML;
-      button.classList.remove('copied');
-    }, 2000);
-  }).catch(err => {
-    console.error('Failed to copy:', err);
-    button.innerHTML = '<span>✗</span> Failed';
-    setTimeout(() => {
-      button.innerHTML = '<span>📋</span> Copy';
-    }, 2000);
-  });
-}
-</script>
+<script src="{{ '/assets/js/publications.js' | relative_url }}"></script>

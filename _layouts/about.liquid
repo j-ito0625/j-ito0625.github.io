@@ -31,12 +31,12 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
           {% capture sizes %}200px{% endcapture %}
-          <div style="width: 200px; height: 200px;">
+          <a href="{{ '/cv/' | relative_url }}" style="display: block; width: 200px; height: 200px;">
             {%
               include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
               cache_bust=true
             %}
-          </div>
+          </a>
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
@@ -56,7 +56,5 @@ layout: default
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
-
-
   </article>
 </div>
