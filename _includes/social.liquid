@@ -109,6 +109,7 @@
           <img
             src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"
             alt="{{ social[1].title }}"
+            style="height: 1em; width: auto;"
           >
         {% endif %}
       </a>
