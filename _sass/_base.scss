@@ -405,23 +405,29 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2em;
 
     a {
+      display: flex;
+      align-items: center;
+
       img {
-        width: 3.2rem;
-        height: 3.2rem;
-        margin-bottom: 1rem;
+        height: 1em;
+        width: auto;
       }
 
       svg {
-        width: 3.5rem;
-        height: 4rem;
-        margin-bottom: 0.5rem;
+        width: 2.8rem;
+        height: 3.2rem;
 
         image {
-          width: 3.5rem;
-          height: 3.5rem;
+          width: 2.8rem;
+          height: 2.8rem;
         }
       }
 
