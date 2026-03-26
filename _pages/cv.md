@@ -5,8 +5,168 @@ title: CV
 nav: true
 nav_order: 4
 description:
-_styles: ".post-title { display: none !important; }"
 ---
+
+<style>
+.post-title {
+  display: none !important;
+}
+.cv-section {
+  margin-bottom: 2rem;
+}
+.cv-section h3 {
+  color: var(--global-theme-color);
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.info-table {
+  margin-bottom: 1.5rem;
+}
+.info-table td {
+  padding: 0.3rem 0;
+  vertical-align: top;
+}
+.info-table td:first-child {
+  font-weight: 600;
+  width: 120px;
+  padding-right: 1rem;
+}
+.info-card {
+  background: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #e0e0e0;
+}
+
+
+
+.info-item {
+  margin-bottom: 1rem;
+}
+.info-item:last-child {
+  margin-bottom: 0;
+}
+.info-label {
+  font-weight: 600;
+  color: var(--global-theme-color);
+  margin-bottom: 0.3rem;
+}
+.info-content {
+  color: #000000;
+  line-height: 1.5;
+}
+
+html[data-theme="dark"] .info-content {
+  color: white;
+}
+
+html[data-theme="dark"] .info-card {
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  padding: 0;
+}
+
+.timeline-item {
+  margin-bottom: 1.2rem;
+  padding-left: 1rem;
+  border-left: 2px solid #e0e0e0;
+}
+
+
+.timeline-item .header {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 0.3rem;
+  flex-wrap: nowrap;
+  position: relative;
+}
+.timeline-item .period {
+  color: var(--global-theme-color);
+  font-size: 0.9rem;
+  font-weight: 600;
+  white-space: nowrap;
+  margin-right: 0.5rem;
+  min-width: 160px;
+  display: inline-block;
+}
+.timeline-item .separator {
+  margin: 0 0.5rem;
+  color: #999;
+}
+
+
+.timeline-item .title {
+  font-weight: 600;
+}
+.timeline-item .institution,
+.timeline-item .description {
+  color: #666;
+  font-size: 0.95rem;
+  margin-top: 0.3rem;
+  padding-left: calc(160px + 1rem + 0.5rem + 0.5rem); /* period width + margins + separator */
+}
+
+
+
+.timeline-item .institution {
+  font-style: italic;
+}
+.timeline-item .description {
+  color: #333;
+}
+
+html[data-theme="dark"] .timeline-item .institution,
+html[data-theme="dark"] .timeline-item .description {
+  color: white;
+}
+
+.research-list {
+  margin-top: 0.5rem;
+}
+.research-list h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+}
+.research-list ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+.research-list li {
+  margin-bottom: 0.3rem;
+}
+.profile-photo {
+  float: right;
+  margin: 0 0 2rem 2rem;
+  width: 200px;
+}
+.profile-photo img {
+  width: 100%;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+
+@media (max-width: 768px) {
+  .profile-photo {
+    float: none;
+    margin: 0 auto 2rem auto;
+    display: block;
+    text-align: center;
+  }
+}
+
+html[data-theme="dark"] a[style*="color: blue"] {
+  color: var(--global-theme-color) !important;
+}
+</style>
 
 <div class="profile-photo">
   <img src="{{ '/assets/img/ito.jpg' | relative_url }}" alt="伊藤 潤成">
@@ -36,11 +196,7 @@ _styles: ".post-title { display: none !important; }"
     </tr>
     <tr>
       <td>links</td>
-      <td>
-        <div class="social cv-social">
-          <div class="contact-icons">{% include social.liquid %}</div>
-        </div>
-      </td>
+      <td><a href="https://researchmap.jp/junsei-ito" style="color: blue;">researchmap</a>, <a href="https://github.com/j-ito0625" style="color: blue;">Github</a></td>
     </tr>
   </table>
 </div>
