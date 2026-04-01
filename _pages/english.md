@@ -172,7 +172,7 @@ html[data-theme="dark"] a[style*="color: blue"] {
       <div class="info-content">
         Waseda University, Faculty of Science and Engineering<br>
         Graduate School of Advanced Science and Engineering<br>
-        <a href="https://www.eb.waseda.ac.jp/index.html" style="color: blue;">Department of Electrical Engineering and Bioscience</a>, Master's Student (1st Year)<br>
+        <a href="https://www.eb.waseda.ac.jp/index.html" style="color: blue;">Department of Electrical Engineering and Bioscience</a>, Master's Student (2st Year)<br>
         <a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">Systems Control Laboratory (Wasa Lab)</a>
       </div>
     </div>
@@ -193,7 +193,7 @@ html[data-theme="dark"] a[style*="color: blue"] {
 </div>
 
 <div class="research-section">
-  <p>I am engaged in interdisciplinary research combining <span style="font-weight: bold; color: black;">Control Theory</span> × <span style="font-weight: bold; color: #0B346E;">Information Science</span> × <span style="font-weight: bold; color: #B9121B;">Physics</span>, centered on systems control theory. For the essential constraints of physical systems such as partial observability and uncertainty, I explore new solutions by integrating the universal laws provided by <span style="font-weight: bold; color: #B9121B;">Physics</span> with the data-driven learning and estimation capabilities enabled by <span style="font-weight: bold; color: #0B346E;">Information Science</span> within the framework of control theory.</p>
+  <p>Junsei Ito is engaged in interdisciplinary research combining <span style="font-weight: bold; color: black;">Control Theory</span> × <span style="font-weight: bold; color: #0B346E;">Information Science</span> × <span style="font-weight: bold; color: #B9121B;">Physics</span>, centered on systems control theory. For the essential constraints of physical systems such as partial observability and uncertainty, He explores new solutions by integrating the universal laws provided by <span style="font-weight: bold; color: #B9121B;">Physics</span> with the data-driven learning and estimation capabilities enabled by <span style="font-weight: bold; color: #0B346E;">Information Science</span> within the framework of control theory.</p>
 
   <div class="keywords">
     <strong>Keywords (including recent interests):</strong>
