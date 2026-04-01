@@ -9,9 +9,15 @@ layout: default
 {% endif %}
 
 <div class="post">
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-description">{{ page.description }}</p>
+  <header class="post-header{% if page.permalink == '/news/' %} post-header-news{% endif %}">
+    {% if page.permalink == '/news/' %}
+      <h1 class="post-title about-section-heading about-section-heading-news-page">{{ page.title }}</h1>
+    {% else %}
+      <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
   </header>
 
   <article>

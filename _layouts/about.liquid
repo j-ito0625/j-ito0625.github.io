@@ -7,7 +7,7 @@ layout: default
       <div style="flex: 1; min-width: 300px;">
         <h1 class="post-title">
           {% if page.custom_name %}
-            <span style="font-weight: 600;">{{ page.custom_name }}</span>
+            <span style="font-weight: 400;">{{ page.custom_name }}</span>
           {% elsif site.title == 'blank' %}
             <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
             {{ site.last_name }}
@@ -15,7 +15,7 @@ layout: default
             {{ site.title }}
           {% endif %}
         </h1>
-        <p class="desc">{{ page.subtitle }}</p>
+        <div class="desc">{{ page.subtitle }}</div>
         {% if page.social %}
           <div class="social">
             <div class="contact-icons">{% include social.liquid %}</div>
@@ -23,20 +23,40 @@ layout: default
         {% endif %}
       </div>
       {% if page.profile and page.profile.image %}
-        <div style="flex-shrink: 0;">
+        <div class="about-photo-wrapper">
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}200px{% endcapture %}
-          <a href="{{ '/cv/' | relative_url }}" style="display: block; width: 200px; height: 200px;">
+          {% assign profile_image_front_class = profile_image_class | append: ' about-photo-front-image' %}
+          {% assign profile_image_back_class = profile_image_class | append: ' about-photo-back-image' %}
+          {% capture front_sizes %}200px{% endcapture %}
+          {% capture back_sizes %}280px{% endcapture %}
+
+          <a href="{{ '/cv/' | relative_url }}" class="about-photo-classic">
             {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=front_sizes alt=page.profile.image
               cache_bust=true
             %}
           </a>
+
+          <div class="about-photo-stack">
+            <div class="about-photo-layer about-photo-layer-back" aria-hidden="true">
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_back_class sizes=back_sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            </div>
+            <a href="{{ '/cv/' | relative_url }}" class="about-photo-layer about-photo-layer-front">
+              {%
+                include figure.liquid loading="eager" path=profile_image_path class=profile_image_front_class sizes=front_sizes alt=page.profile.image
+                cache_bust=true
+              %}
+            </a>
+          </div>
+
           {% if page.profile.more_info %}
             <div class="more-info">{{ page.profile.more_info }}</div>
           {% endif %}
@@ -50,9 +70,10 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        news <span style="font-size: 0.6em;">(<a href="{{ '/news/' | relative_url }}" style="color: blue;">more</a>)</span>
-        <span style="font-size: 0.5em;">* : Upcoming Conferences</span>
+      <h2 class="about-section-heading about-section-heading-news">
+        <span>NEWS</span>
+        <span class="about-section-heading-meta">(<a href="{{ '/news/' | relative_url }}">MORE</a>)</span>
+        <span class="about-section-heading-note">* : UPCOMING CONFERENCES</span>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
