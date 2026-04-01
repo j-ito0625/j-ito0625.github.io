@@ -19,7 +19,7 @@ _styles: ".post-title { display: none !important; }"
       <td>所属</td>
       <td>
         早稲田大学 理工学術院<br>
-        大学院 先進理工学研究科 <a href="https://www.eb.waseda.ac.jp/index.html" style="color: blue;">電気・情報生命専攻</a>　修士1年<br>
+        大学院 先進理工学研究科 <a href="https://www.eb.waseda.ac.jp/index.html" style="color: blue;">電気・情報生命専攻</a>　修士2年<br>
         システム制御研究室(<a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">和佐泰明研究室</a>)    </td>
     </tr>
     <tr>
