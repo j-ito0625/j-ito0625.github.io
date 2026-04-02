@@ -12,6 +12,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Graduate student at Waseda University researching systems control theory, physics-informed neural networks, and data-driven control systems.
 
 footer_text: >
+  Based on <a href="https://github.com/alshedivat/al-folio">al-folio</a> (MIT License), customized by the author.
 keywords: "制御理論, PINNs, physics-informed neural networks, 早稲田大学, システム制御, AI, 機械学習, 研究者, control theory, Waseda University"
 lang: ja # the language of your site (for example: en, fr, cn, ru, etc.)
 # icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)

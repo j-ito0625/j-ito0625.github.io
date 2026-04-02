@@ -4,9 +4,9 @@ title: About
 permalink: /
 custom_name: "伊藤 潤成 | Junsei Ito"
 subtitle: >
-  <p><strong>早稲田大学 理工学術院 大学院 先進理工学研究科 電気・情報生命専攻 修士課程２年</strong></p>
+  <p><strong>早稲田大学 大学院 先進理工学研究科 電気・情報生命専攻 修士課程２年</strong></p>
   <p><strong>システム制御研究室(<a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">和佐泰明研究室</a>)所属</strong></p>
-  <p><strong>ACT-X研究者</strong></p>
+  <p><strong>JST ACT-X研究者</strong></p>
 profile:
   align: right
   image: ito5.jpg
@@ -19,7 +19,7 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
+collaboration_note: 研究コラボレーションや業務委託・インターンシップ等のご相談は，<a href="mailto:junseiito0625@gmail.com">メール</a>でお気軽にご連絡ください．
 # latest_posts:
 #   enabled: false
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
@@ -32,12 +32,30 @@ html[data-theme="dark"] a[style*="color: blue"] {
 }
 </style>
 
-<div class="research-section">
+<h2 class="about-section-heading about-section-heading-vision">VISION</h2>
 
-  <p>システム制御理論を軸とした<span style="font-weight: bold; color:　black;">制御理論</span>×<span style="font-weight: bold; color: #0B346E;">情報科学</span>×<span style="font-weight: bold; color: #B9121B;">物理学</span>の学際研究に取り組んでいます．物理システムが持つ部分観測性や不確実性といった本質的な制約に対し，<span style="font-weight: bold; color: #B9121B;">物理学(Physics)</span>が提供する普遍的な法則と，<span style="font-weight: bold; color: #0B346E;">情報科学(Cyber)</span>が可能にするデータに基づく学習・推定能力を，システム制御理論の枠組みで統合することで新たな解決策を探求しています．</p>
+<div class="research-section">
+  <div class="research-version">ver. 2026/04/02</div>
+
+  <p class="research-summary"><strong>「物理システムの構造的制約のもとで成り立つ知能と制御の原理を探る」</strong></p>
+
+  <p>システム制御理論を基盤として，制御理論・情報科学・物理学の接点にある問題に取り組んでいます．物理システムに内在する構造的制約（観測・情報・駆動）は，単なる技術的困難ではなく推定・学習・制御の可能性そのものを形づくる根源的な条件であると考えています．</p>
+
+  <p>このような視点のもとで，物理学が与える普遍的な法則や相互作用の構造と，情報科学が与えるデータに基づく学習・推定の能力を，システム制御理論の枠組みの中で統合し，構造的制約のもとでなお有効に機能する知能と制御の原理を探究しています．また，サイバネティクスや創発の観点から，局所的相互作用と情報のネットワーク構造を通じて，適応的で秩序あるふるまいや知能がいかに立ち現れ，記述・設計できるかにも関心を持っています．</p>
 
   <div class="keywords">
-    <strong>キーワード(最近の興味も含む)：</strong>
-    <span>システム制御理論，Physics-Informed Neural Networks，Diffusion Model, Physical AI，Sim2Real，Information Thermodynamics</span>
+    <strong>Keywords:</strong>
+    <div class="keywords-list">
+      <span class="keyword-tag">Systems Control Theory</span>
+      <span class="keyword-tag">Data-Driven Control</span>
+      <span class="keyword-tag">Physical AI</span>
+      <span class="keyword-tag">Partial Observation</span>
+      <span class="keyword-tag">Information Geometry</span>
+      <span class="keyword-tag">Information Thermodynamics</span>
+      <span class="keyword-tag">Physics-Informed Neural Networks (PINNs)</span>
+      <span class="keyword-tag">Hamiltonian Neural Networks</span>
+      <span class="keyword-tag">Cybernetics</span>
+      <span class="keyword-tag">Emergence</span>
+    </div>
   </div>
 </div>
