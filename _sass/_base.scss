@@ -1668,6 +1668,60 @@ html[data-theme="dark"] .news .news-row-milestone {
   }
 }
 
+.about-news-callout {
+  position: relative;
+  margin-top: 0.95rem;
+  padding: 1.6rem 0.42rem 0.72rem;
+  color: var(--global-text-color);
+  font-size: 0.93rem;
+  line-height: 1.65;
+  text-align: center;
+  text-wrap: balance;
+  border-top: 1px solid var(--global-divider-color);
+}
+
+.about-news-callout a {
+  color: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.about-news-callout-dot {
+  position: absolute;
+  width: 1.22rem;
+  height: 1.22rem;
+  background-image: radial-gradient(currentColor 1.25px, transparent 1.25px);
+  background-size: 5.4px 5.4px;
+  background-position: 0 0;
+  opacity: 0.88;
+  pointer-events: none;
+}
+
+.about-news-callout-dot-top-left {
+  top: 1.3rem;
+  left: 0;
+  transform: translate(-25%, -50%);
+}
+
+.about-news-callout-dot-top-right {
+  top: 1.3rem;
+  right: 0;
+  transform: translate(25%, -50%);
+}
+
+.about-news-callout-dot-bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: translate(-25%, 58%);
+}
+
+.about-news-callout-dot-bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 58%);
+}
+
 // Research section styles
 .research-section {
   position: relative;

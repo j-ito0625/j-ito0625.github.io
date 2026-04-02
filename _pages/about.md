@@ -19,7 +19,7 @@ announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
+collaboration_note: 研究コラボレーションや業務委託・インターンシップ等のご相談は，<a href="mailto:junseiito0625@gmail.com">メール</a>でお気軽にご連絡ください．
 # latest_posts:
 #   enabled: false
 #   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items

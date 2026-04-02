@@ -2,8 +2,28 @@
  * CV page custom styles
  *****************************/
 
-html[data-theme="dark"] a[style*="color: blue"] {
-  color: var(--global-theme-color) !important;
+.post-header-cv {
+  display: none;
+}
+
+.cv-name {
+  display: block;
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.cv a,
+.cv-link {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+  text-underline-offset: 0.12em;
+}
+
+.cv a:hover,
+.cv-link:hover {
+  color: var(--global-hover-color);
 }
 
 .cv-section {
@@ -11,9 +31,16 @@ html[data-theme="dark"] a[style*="color: blue"] {
 
   h3 {
     color: var(--global-theme-color);
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid var(--global-divider-color);
     padding-bottom: 0.5rem;
     margin-bottom: 1rem;
+    font-weight: 700;
+  }
+
+  h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
   }
 }
 
@@ -33,19 +60,12 @@ html[data-theme="dark"] a[style*="color: blue"] {
 }
 
 .info-card {
-  background: white;
+  background: var(--global-card-bg-color);
   border-radius: 0.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   margin-bottom: 1.5rem;
-  border: 1px solid #e0e0e0;
-
-  html[data-theme="dark"] & {
-    background: transparent;
-    box-shadow: none;
-    border: none;
-    padding: 0;
-  }
+  border: 1px solid var(--global-divider-color);
 }
 
 .info-item {
@@ -63,18 +83,14 @@ html[data-theme="dark"] a[style*="color: blue"] {
 }
 
 .info-content {
-  color: #000000;
+  color: var(--global-text-color);
   line-height: 1.5;
-
-  html[data-theme="dark"] & {
-    color: white;
-  }
 }
 
 .timeline-item {
   margin-bottom: 1.2rem;
   padding-left: 1rem;
-  border-left: 2px solid #e0e0e0;
+  border-left: 2px solid var(--global-divider-color);
 
   .header {
     display: flex;
@@ -96,7 +112,7 @@ html[data-theme="dark"] a[style*="color: blue"] {
 
   .separator {
     margin: 0 0.5rem;
-    color: #999;
+    color: var(--global-text-color-light);
   }
 
   .title {
@@ -105,7 +121,7 @@ html[data-theme="dark"] a[style*="color: blue"] {
 
   .institution,
   .description {
-    color: #666;
+    color: var(--global-text-color-light);
     font-size: 0.95rem;
     margin-top: 0.3rem;
     padding-left: calc(160px + 1rem + 0.5rem + 0.5rem);
@@ -116,14 +132,7 @@ html[data-theme="dark"] a[style*="color: blue"] {
   }
 
   .description {
-    color: #333;
-  }
-
-  html[data-theme="dark"] & {
-    .institution,
-    .description {
-      color: white;
-    }
+    color: var(--global-text-color);
   }
 }
 
@@ -188,6 +197,34 @@ html[data-theme="dark"] a[style*="color: blue"] {
         width: 1.75em !important;
         height: 1.75em !important;
       }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .cv-name {
+    font-size: 1.6rem;
+  }
+
+  .timeline-item {
+    .header {
+      flex-wrap: wrap;
+      row-gap: 0.2rem;
+    }
+
+    .period {
+      min-width: auto;
+      width: 100%;
+      margin-right: 0;
+    }
+
+    .separator {
+      display: none;
+    }
+
+    .institution,
+    .description {
+      padding-left: 0;
     }
   }
 }

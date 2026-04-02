@@ -5,7 +5,6 @@ title: CV
 nav: true
 nav_order: 4
 description:
-_styles: ".post-title { display: none !important; }"
 ---
 
 <div class="profile-photo">
@@ -13,14 +12,14 @@ _styles: ".post-title { display: none !important; }"
 </div>
 
 <div class="cv-section">
-  <h1 class="post-title" style="display: block !important; font-weight: 600;">伊藤 潤成 | Junsei Ito</h1>
+  <h1 class="cv-name">伊藤 潤成 | Junsei Ito</h1>
   <table class="info-table">
     <tr>
       <td>所属</td>
       <td>
         早稲田大学 理工学術院<br>
-        大学院 先進理工学研究科 <a href="https://www.eb.waseda.ac.jp/index.html" style="color: blue;">電気・情報生命専攻</a>　修士2年<br>
-        システム制御研究室(<a href="https://wasalab.w.waseda.jp/index.html" style="color: blue;">和佐泰明研究室</a>)    </td>
+        大学院 先進理工学研究科 <a class="cv-link" href="https://www.eb.waseda.ac.jp/index.html">電気・情報生命専攻</a>　修士2年<br>
+        システム制御研究室(<a class="cv-link" href="https://wasalab.w.waseda.jp/index.html">和佐泰明研究室</a>)</td>
     </tr>
     <tr>
       <td>居室</td>
@@ -50,6 +49,13 @@ _styles: ".post-title { display: none !important; }"
   <div class="timeline">
     <div class="timeline-item">
       <div class="header">
+        <span class="period">2025年10月 - 現在</span>
+        <span class="separator">|</span>
+        <span class="title">国立研究開発法人科学技術振興機構（JST）, ACT-X研究者</span>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="header">
         <span class="period">2025年4月 - 現在</span>
         <span class="separator">|</span>
         <span class="title">早稲田大学 理工学術院 大学院 先進理工学研究科 電気・情報生命専攻</span>
@@ -73,7 +79,7 @@ _styles: ".post-title { display: none !important; }"
         <span class="period">2018年4月 - 2021年3月</span>
         <span class="separator">|</span>
         <span class="title">
-          <a href="https://nika.myswan.ed.jp/" target="_blank" rel="noopener" style="color: blue;">宮城県仙台二華高等学校</a>
+          <a class="cv-link" href="https://nika.myswan.ed.jp/" target="_blank" rel="noopener">宮城県仙台二華高等学校</a>
         </span>
       </div>
     </div>
@@ -85,16 +91,16 @@ _styles: ".post-title { display: none !important; }"
   <div class="info-card">
     <div class="info-item">
       <div class="info-label">
-        <a href="https://www.jst.go.jp/" style="color: blue;">JST</a>
-        <a href="https://www.jst.go.jp/kisoken/act-x/index.html" style="color: blue;">ACT-X</a>
+        <a class="cv-link" href="https://www.jst.go.jp/">JST</a>
+        <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/index.html">ACT-X</a>
         「部分観測下におけるSim2Real転移手法の開発」(研究代表)
       </div>
       <div class="info-content">
         科学技術振興機構 戦略的創造研究推進事業 ACT-X<br>
-        研究領域：<a href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html" style="color: blue;">[次世代AI・数理情報] 次世代AIを築く数理・情報科学の革新</a><br>
+        研究領域：<a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html">[次世代AI・数理情報] 次世代AIを築く数理・情報科学の革新</a><br>
         研究期間：2025年10月 - 2028年3月（予定）<br>
         予算：4,500,000 JPY + monthly salary　<br>
-        関連リンク：<a href="https://www.waseda.jp/inst/research/news/82130" style="color: blue;">早稲田大学プレスリリース</a>，<a href="https://research-er.jp/projects/view/1309578" style="color: blue;">日本の研究.com</a>，
+        関連リンク：<a class="cv-link" href="https://www.waseda.jp/inst/research/news/82130">早稲田大学プレスリリース</a>，<a class="cv-link" href="https://research-er.jp/projects/view/1309578">日本の研究.com</a>，
       </div>
     </div>
   </div>
@@ -103,8 +109,21 @@ _styles: ".post-title { display: none !important; }"
 <div class="cv-section">
   <h3>所属学会</h3>
   <ul>
-    <li><strong><a href="https://www.sice.jp/" style="color: blue;">計測自動制御学会 (SICE)</a></strong></li>
+    <li><strong><a class="cv-link" href="https://www.sice.jp/">計測自動制御学会 (SICE)</a></strong></li>
   </ul>
+</div>
+
+<div class="cv-section">
+  <h3>委員歴</h3>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="header">
+        <span class="period">2026年1月 - 現在</span>
+        <span class="separator">|</span>
+        <span class="title">計測自動制御学会制御部門 自律型Cyber-Physical Human Systems調査研究会, 学生委員</span>
+      </div>
+    </div>
+  </div>
 </div>
 
 <div class="cv-section">
@@ -112,12 +131,12 @@ _styles: ".post-title { display: none !important; }"
   <h4>研究活動</h4>
   <ul>
     <li><strong>大阪大学 QIQB 量子ソフトウェア勉強会 優秀成績・特別選抜</strong> (2023年6月 - 2024年3月)</li>
-    <li><strong>大阪大学 <a href="https://researchmap.jp/kosuke-mitarai" style="color: blue;">御手洗光祐</a> 准教授研究室 短期研究滞在</strong> (2024年3月)<br>    JAXを用いた超電導量子コンピュータのパルス最適化研究，自動微分による量子ゲート操作最適化</li>
+    <li><strong>大阪大学 <a class="cv-link" href="https://researchmap.jp/kosuke-mitarai">御手洗光祐</a> 准教授研究室 短期研究滞在</strong> (2024年3月)<br>JAXを用いた超電導量子コンピュータのパルス最適化研究，自動微分による量子ゲート操作最適化</li>
   </ul>
 
   <h4>企業での開発経験</h4>
   <ul>
-    <li><strong><a href="https://qunasys.com/" style="color: blue;">株式会社QunaSys</a></strong> (2024年3月 - 2025年10月)<br>
+    <li><strong><a class="cv-link" href="https://qunasys.com/">株式会社QunaSys</a></strong> (2024年3月 - 2025年10月)<br>
       量子計算ソフトウェア開発</li>
     <!-- <li><strong>株式会社SmartTrade </strong> (2023年11月 - 現在)<br>
       金融市場データ時系列予測モデル開発</li> -->

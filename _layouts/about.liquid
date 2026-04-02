@@ -76,6 +76,15 @@ layout: default
         <span class="about-section-heading-note">* : UPCOMING CONFERENCES</span>
       </h2>
       {% include news.liquid limit=true %}
+      {% if page.collaboration_note %}
+        <div class="about-news-callout">
+          <span class="about-news-callout-dot about-news-callout-dot-top-left" aria-hidden="true"></span>
+          <span class="about-news-callout-dot about-news-callout-dot-top-right" aria-hidden="true"></span>
+          <span class="about-news-callout-dot about-news-callout-dot-bottom-left" aria-hidden="true"></span>
+          <span class="about-news-callout-dot about-news-callout-dot-bottom-right" aria-hidden="true"></span>
+          {{ page.collaboration_note }}
+        </div>
+      {% endif %}
     {% endif %}
   </article>
 </div>
