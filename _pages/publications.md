@@ -42,7 +42,7 @@ nav_order: 3
     <article class="publication-item">
       <div class="authors"><span class="highlight-author">Junsei Ito</span>, Yasuaki Wasa</div>
       <h3>Phase-Transition-Driven Distributed Coverage Control</h3>
-      <div class="details">23rd IFACWorld Congress, submitted, Korea, 23-28th, Aug., 2026</div>
+      <div class="details">23rd IFAC World Congress, accepted, Busan, Korea, 23-28th, Aug., 2026</div>
     </article>
   </div>
 </section>
