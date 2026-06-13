@@ -26,7 +26,7 @@ layout: default
     {% endif %}
   </header>
 
-  <article>
+  <article class="{% if page.permalink == '/publications/' %}publications{% endif %}">
     {{ content }}
   </article>
 
