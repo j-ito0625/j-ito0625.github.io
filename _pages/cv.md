@@ -8,7 +8,7 @@ description:
 ---
 
 <div class="profile-photo">
-  <img src="{{ '/assets/img/ito.jpg' | relative_url }}" alt="伊藤 潤成">
+  <img src="{{ '/assets/img/ito_2606.jpg' | relative_url }}" alt="伊藤 潤成">
 </div>
 
 <div class="cv-section">
@@ -110,6 +110,7 @@ description:
   <h3>所属学会</h3>
   <ul>
     <li><strong><a class="cv-link" href="https://www.sice.jp/">計測自動制御学会 (SICE)</a></strong></li>
+    <li><strong><a class="cv-link" href="https://www.ai-gakkai.or.jp/">人工知能学会 (JSAI)</a></strong></li>
   </ul>
 </div>
 
@@ -120,7 +121,7 @@ description:
       <div class="header">
         <span class="period">2026年1月 - 現在</span>
         <span class="separator">|</span>
-        <span class="title">計測自動制御学会制御部門 自律型Cyber-Physical Human Systems調査研究会, 学生委員</span>
+        <span class="title">計測自動制御学会制御部門 <a class="cv-link" href="https://cphs.sice-ctrl.jp/">自律型Cyber-Physical Human Systems調査研究会</a>, 学生委員</span>
       </div>
     </div>
   </div>
