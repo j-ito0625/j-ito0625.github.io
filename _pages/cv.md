@@ -8,7 +8,7 @@ description:
 ---
 
 <div class="profile-photo">
-  <img src="{{ '/assets/img/ito_2606_close.jpg' | relative_url }}" alt="伊藤 潤成">
+  <img src="{{ '/assets/img/ito_2606_2.JPG' | relative_url }}" alt="伊藤 潤成">
 </div>
 
 <div class="cv-section">

@@ -226,7 +226,7 @@ description:
 
 <div class="profile-and-info">
   <div class="profile-photo">
-    <img src="{{ '/assets/img/ito_2606_close.jpg' | relative_url }}" alt="Junsei Ito">
+    <img src="{{ '/assets/img/ito_2606_2.JPG' | relative_url }}" alt="Junsei Ito">
   </div>
 
   <div class="cv-section">
