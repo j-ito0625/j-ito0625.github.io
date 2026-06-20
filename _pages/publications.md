@@ -22,7 +22,7 @@ nav_order: 3
 
 ## Peer-Reviewed Conference Proceedings
 
-**[C1]** **Junsei Ito** and Yasuaki Wasa, "Phase-Transition-Driven Distributed Coverage Control," 23rd IFAC World Congress, accepted, Korea, August 23-28, 2026.
+**[C1]** **Junsei Ito** and Yasuaki Wasa, "Phase-Transition-Driven Distributed Coverage Control," 23rd IFAC World Congress, accepted, Korea, August 23-28, 2026. [[simulation](https://www.youtube.com/watch?v=vPV7cuQ2pbY)]
 
 ## Domestic Conferences
 
