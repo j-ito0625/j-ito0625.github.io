@@ -88,20 +88,36 @@ description:
 
 <div class="cv-section">
   <h3>外部研究費 | Grants</h3>
-  <div class="info-card">
-    <div class="info-item">
-      <div class="info-label">
-        <a class="cv-link" href="https://www.jst.go.jp/">JST</a>
-        <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/index.html">ACT-X</a>
-        「部分観測下におけるSim2Real転移手法の開発」(研究代表)
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="header">
+        <span class="period">2025年10月 - 2028年3月</span>
+        <span class="separator">|</span>
+        <span class="title">
+          <a class="cv-link" href="https://www.jst.go.jp/">JST</a>
+          <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/index.html">ACT-X</a>
+          「部分観測下におけるSim2Real転移手法の開発」(研究代表)
+        </span>
       </div>
-      <div class="info-content">
-        科学技術振興機構 戦略的創造研究推進事業 ACT-X<br>
-        研究領域：<a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html">[次世代AI・数理情報] 次世代AIを築く数理・情報科学の革新</a><br>
-        研究期間：2025年10月 - 2028年3月（予定）<br>
-        予算：4,500,000 JPY + monthly salary　<br>
-        関連リンク：<a class="cv-link" href="https://www.waseda.jp/inst/research/news/82130">早稲田大学プレスリリース</a>，<a class="cv-link" href="https://research-er.jp/projects/view/1309578">日本の研究.com</a>，
+      <div class="description">科学技術振興機構 戦略的創造研究推進事業 ACT-X</div>
+      <div class="description">研究領域：<a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html">[次世代AI・数理情報] 次世代AIを築く数理・情報科学の革新</a></div>
+      <div class="description">予算：4,500,000 JPY + monthly salary</div>
+      <div class="description">links: <a class="cv-link" href="https://www.waseda.jp/inst/research/news/82130">早稲田大学プレスリリース</a>，<a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/project/111F007/111F007_2025.html#:~:text=%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%82%E3%82%8B%EF%BC%8E-,%E4%BC%8A%E8%97%A4%20%E6%BD%A4%E6%88%90,-%E9%83%A8%E5%88%86%E8%A6%B3%E6%B8%AC%E4%B8%8B">JST ACT-X 研究課題ページ</a>，<a class="cv-link" href="https://www.jst.go.jp/kisoken/aip/colab/researchers/#10:~:text=%E5%88%B6%E5%BE%A1%20(2021%2D2025)-,%E4%BC%8A%E8%97%A4%20%E6%BD%A4%E6%88%90,-%E6%97%A9%E7%A8%B2%E7%94%B0%E5%A4%A7%E5%AD%A6%20%E5%A4%A7%E5%AD%A6%E9%99%A2%E7%94%9F">JST AIP 研究者一覧</a>，<a class="cv-link" href="https://research-er.jp/projects/view/1309578">日本の研究.com</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h3>奨学金・渡航費支援 | Scholarships &amp; Travel Grants</h3>
+  <h4>学内</h4>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="header">
+        <span class="period">2026年度</span>
+        <span class="separator">|</span>
+        <span class="title"><a class="cv-link" href="https://waseda-research-portal.jp/international/graduate-student/">大学院生等海外派遣助成制度</a></span>
       </div>
+      <div class="description">金額：165,000 JPY</div>
     </div>
   </div>
 </div>

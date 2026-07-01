@@ -337,22 +337,36 @@ description:
 
 <div class="cv-section">
   <h3>Grants</h3>
-  <div class="info-card">
-    <div class="info-item">
-      <div class="info-label">
-        <a class="cv-link" href="https://www.jst.go.jp/">JST</a>
-        <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/index.html">ACT-X</a>
-        "Development of Sim2Real Transfer Methods under Partial Observation" (Principal Investigator)
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="header">
+        <span class="period">Oct 2025 - Mar 2028</span>
+        <span class="separator">|</span>
+        <span class="title">
+          <a class="cv-link" href="https://www.jst.go.jp/">JST</a>
+          <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/index.html">ACT-X</a>
+          "Development of Sim2Real Transfer Methods under Partial Observation" (Principal Investigator)
+        </span>
       </div>
-      <div class="info-content">
-        Japan Science and Technology Agency, Strategic Basic Research Programs ACT-X<br>
-        Research Area: <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html">Mathematical and Information Science Innovation for Next-Generation AI</a><br>
-        Period: October 2025 - March 2028 (planned)<br>
-        Budget: 4,500,000 JPY + monthly salary<br>
-        Related links:
-        <a class="cv-link" href="https://www.waseda.jp/inst/research/news/82130">Waseda University press release</a>,
-        <a class="cv-link" href="https://research-er.jp/projects/view/1309578">Japan Research</a>
+      <div class="description">Japan Science and Technology Agency, Strategic Basic Research Programs ACT-X</div>
+      <div class="description">Research Area: <a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/research_area/bunya2023-1.html">Mathematical and Information Science Innovation for Next-Generation AI</a></div>
+      <div class="description">Budget: 4,500,000 JPY + monthly salary</div>
+      <div class="description">links: <a class="cv-link" href="https://www.waseda.jp/inst/research/news/82130">Waseda University press release</a>，<a class="cv-link" href="https://www.jst.go.jp/kisoken/act-x/project/111F007/111F007_2025.html#:~:text=%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8%E3%81%AB%E3%81%82%E3%82%8B%EF%BC%8E-,%E4%BC%8A%E8%97%A4%20%E6%BD%A4%E6%88%90,-%E9%83%A8%E5%88%86%E8%A6%B3%E6%B8%AC%E4%B8%8B">JST ACT-X project page</a>，<a class="cv-link" href="https://www.jst.go.jp/kisoken/aip/colab/researchers/#10:~:text=%E5%88%B6%E5%BE%A1%20(2021%2D2025)-,%E4%BC%8A%E8%97%A4%20%E6%BD%A4%E6%88%90,-%E6%97%A9%E7%A8%B2%E7%94%B0%E5%A4%A7%E5%AD%A6%20%E5%A4%A7%E5%AD%A6%E9%99%A2%E7%94%9F">JST AIP researcher list</a>，<a class="cv-link" href="https://research-er.jp/projects/view/1309578">Japan Research</a></div>
+    </div>
+  </div>
+</div>
+
+<div class="cv-section">
+  <h3>Scholarships &amp; Travel Grants</h3>
+  <h4>Waseda University</h4>
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="header">
+        <span class="period">FY2026</span>
+        <span class="separator">|</span>
+        <span class="title"><a class="cv-link" href="https://waseda-research-portal.jp/international/graduate-student/">Overseas Research Travel Grant Program for Upper-level Undergraduate and Graduate Students</a></span>
       </div>
+      <div class="description">Budget: 165,000 JPY</div>
     </div>
   </div>
 </div>
@@ -372,7 +386,7 @@ description:
       <div class="header">
         <span class="period">Jan 2026 - Present</span>
         <span class="separator">|</span>
-        <span class="title">Student Committee Member, SICE Control Division <a class="cv-link" href="https://cphs.sice-ctrl.jp/">Technical Committee on Autonomous Cyber-Physical Human Systems</a></span>
+        <span class="title">Student Committee Member, <a class="cv-link" href="https://cphs.sice-ctrl.jp/">SICE Control Division Research Committee on Cyber-Physical Human Systems for Autonomy</a></span>
       </div>
     </div>
   </div>
