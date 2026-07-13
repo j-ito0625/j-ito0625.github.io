@@ -11,7 +11,5 @@ generate_feeds = false
 author = "Junsei Ito"
 email = "junseiito0625@gmail.com"
 github = "https://github.com/j-ito0625"
-# Google Analytics 4 測定ID（空なら gtag は出力されない）。旧サイトから継続。
 google_analytics = "G-CZ7Z12S44E"
-# Google Search Console 認証トークン（空なら meta は出力されない）。旧サイトから継続。
 google_site_verification = "ruQzK2Z-YDg7G7Zcb4bSZNGIAZ9zVVRtsld9nm8AOYo"

@@ -1,21 +1,16 @@
-/* ==========================================================================
-   Junsei Ito — personal site styles.
-   ========================================================================== */
-
 :root {
   --ink: #000;
   --paper: #fff;
-  --paper-cream: #f9f7dc;   /* CV/Englishページ背景（元サイトのAbout背景） */
-  --paper-mint: #e3f1e8;    /* Projectsページ背景（緑アクセント由来の淡色） */
-  --paper-sky: #e4ebfb;     /* Publicationsページ背景（青アクセント由来の淡色） */
-  --accent-blue: #0008ff;   /* タグ・本文リンク */
-  --accent-orange: #ff4a00; /* アクティブなリンク */
-  --accent-green: #009a4e; /* セクション見出し（元: 蛍光緑 #00ff66 を可読に調整） */
+  --paper-cream: #f9f7dc;
+  --paper-mint: #e3f1e8;
+  --paper-sky: #e4ebfb;
+  --accent-blue: #0008ff;
+  --accent-orange: #ff4a00;
+  --accent-green: #009a4e;
 }
 
 * { box-sizing: border-box; }
 
-/* iA Writer Quattro（岡本サイトと同じ書体）を自己ホスト。visionのリード文に使用 */
 @font-face {
   font-family: "iA Writer Quattro";
   src: url("../assets/iAWriterQuattroS-Regular.woff2") format("woff2");
@@ -24,7 +19,6 @@
   font-display: swap;
 }
 
-/* Train One（現行HPのページタイトルと同じ書体）を自己ホスト。Latinサブセット */
 @font-face {
   font-family: "Train One";
   src: url("../assets/TrainOne-Latin.woff2") format("woff2");
@@ -50,7 +44,6 @@ body {
   flex-direction: column;
 }
 
-/* ページ別背景色: --paper を上書きすると body / topbar / pill が一括で追従 */
 body.cream { --paper: var(--paper-cream); }
 body.mint  { --paper: var(--paper-mint); }
 body.sky   { --paper: var(--paper-sky); }
@@ -61,11 +54,9 @@ a {
 }
 a:active { opacity: 0.7; }
 
-/* 本文中のリンクは青（タグと同じ役割色） */
 main a { color: var(--accent-blue); }
 main a:hover { color: var(--accent-orange); }
 
-/* ピル（h1 a相当）: hoverで白黒反転 */
 .pill {
   display: inline-block;
   color: var(--ink);
@@ -79,10 +70,9 @@ main a:hover { color: var(--accent-orange); }
 .pill:hover { color: var(--paper); background: var(--ink); }
 .pill.active { color: var(--accent-orange); border-color: var(--accent-orange); }
 
-/* 上部固定メニューバー（常時表示） */
 .topbar { position: sticky; top: 0; z-index: 100; background: var(--paper); }
 .topbar-inner {
-  /* 中央寄せの本文幅ではなく、ページ左右の実端に寄せる（元サイトの角配置の語彙） */
+
   max-width: none; margin: 0; padding: 1.8rem 2.4rem;
   display: flex; flex-wrap: wrap; align-items: baseline;
   justify-content: space-between; gap: 0.6rem 2rem;
@@ -92,16 +82,14 @@ main a:hover { color: var(--accent-orange); }
 .topbar nav a:hover { color: var(--accent-orange); }
 .topbar nav a.active { color: var(--accent-orange); }
 
-/* コンテンツ共通 */
 main {
   max-width: 96rem;
   width: 100%;
-  margin: 0 auto; /* 現行HPと同じく画面中央に配置 */
+  margin: 0 auto;
   padding: 4rem 2.4rem 8rem;
-  flex: 1 0 auto; /* stickyフッター: 短いページでもfooterを最下部へ */
+  flex: 1 0 auto;
 }
 
-/* ページ最下部: 最終更新日時（ページごと）＋コピーライト */
 .site-footer {
   flex-shrink: 0;
   border-top: 1px solid rgba(0, 0, 0, 0.12);
@@ -118,7 +106,6 @@ main {
   color: rgba(0, 0, 0, 0.62);
 }
 
-/* セクション見出し: 緑・小文字・ピリオド（元サイトh2＋about見出しの語彙） */
 h2.sec {
   color: var(--accent-green);
   font-size: 2.5rem;
@@ -129,7 +116,6 @@ h2.sec {
 h2.sec:first-child { margin-top: 0; }
 h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spacing: 0.03em; margin: 2.8rem 0 0.8rem; }
 
-/* About: 見出しレール（左カラムに見出しを右寄せ、本文を右カラムに） */
 .rail-row {
   display: grid;
   grid-template-columns: 4fr 8fr;
@@ -144,7 +130,6 @@ h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spaci
 .rail-body > :first-child { margin-top: 0; }
 .about-grid { margin-bottom: 1rem; }
 
-/* ステートメント: visionのリード文。iA Writer Quattroで新聞のデックらしく */
 .statement {
   font-family: "iA Writer Quattro", "Neue Haas Grotesk", Helvetica, sans-serif;
   font-size: 2.3rem;
@@ -154,7 +139,6 @@ h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spaci
   text-wrap: balance;
 }
 
-/* vision本文の導入段落: 新聞のようなドロップキャップ（文頭を大きく） */
 .vision-lead::first-letter {
   float: left;
   font-size: 4.8rem;
@@ -164,7 +148,6 @@ h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spaci
   color: var(--accent-orange);
 }
 
-/* keywords: スラッシュ区切りの大きめテキスト（区切りはアクセント橙） */
 .kw-line {
   font-size: 2.2rem;
   line-height: 1.5;
@@ -172,7 +155,6 @@ h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spaci
 }
 .kw-sep { color: var(--accent-orange); margin: 0 0.5rem; }
 
-/* タグ: 白地アウトラインのピル（元サイトのタグフィルタと同語彙） */
 .tags { line-height: 1; }
 .tags span {
   display: inline-block;
@@ -186,7 +168,6 @@ h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spaci
   margin: 0 0.6rem 0.8rem 0;
 }
 
-/* ページタイトル（projects/publications等）: 現行HPと同じ Train One・約40px */
 .page-title {
   font-family: "Train One", "Neue Haas Grotesk", "Noto Sans JP", sans-serif;
   font-weight: 400;
@@ -197,7 +178,6 @@ h3.subsec { font-size: 1.6rem; font-weight: 700; color: var(--ink); letter-spaci
   color: var(--ink);
 }
 
-/* aboutの名前見出し・SNS行（現行HPと同じ配置） */
 h1.about-name {
   font-size: 3.4rem;
   font-weight: 400;
@@ -207,7 +187,6 @@ h1.about-name {
 .affil-block { margin: 0 0 1.2rem; }
 .social-row { margin-top: 2rem; }
 
-/* about: 写真4＋テキスト8（元サイトaboutと同じ構図） */
 .about-grid {
   display: grid;
   grid-template-columns: 4fr 8fr;
@@ -216,7 +195,6 @@ h1.about-name {
 }
 .about-grid .photo img { width: 100%; height: auto; display: block; }
 
-/* cv/en: 写真4＋テキスト8（元サイトaboutのgrid-col=4/8） */
 .cv-grid {
   display: grid;
   grid-template-columns: 4fr 8fr;
@@ -225,13 +203,11 @@ h1.about-name {
 }
 .cv-grid .photo img { width: 100%; height: auto; display: block; }
 
-/* CV等の本文は一段小さいsmallサイズ（元サイトabout準拠） */
 .small-body { font-size: 1.4rem; line-height: 1.55; }
 .lead-accent { color: var(--accent-orange); }
 .small-body .item { margin-bottom: 2.2rem; }
 .small-body .period { display: block; color: rgba(0,0,0,0.62); }
 
-/* NEWS表形式（現行HP: 日付列｜本文列） */
 .sec-more { font-size: 1.2rem; color: var(--ink); }
 .news-legend { font-size: 1.2rem; color: rgba(0,0,0,0.62); letter-spacing: 0.03em; margin-top: 1.2rem; }
 .news-table .news-item {
@@ -246,16 +222,13 @@ h1.about-name {
 .news-table .news-item p { margin: 0 0 0.4rem; }
 .news-table .news-item p:last-child { margin-bottom: 0; }
 
-/* ニュースリスト */
 .news-item { margin-bottom: 3.2rem; font-size: 1.4rem; line-height: 1.55; }
 .news-item .date { display: block; color: rgba(0,0,0,0.62); font-size: 1.2rem; }
 .news-item.important { border: 0.08em solid var(--ink); border-radius: 1rem; padding: 1.2rem 1.6rem; }
 
-/* 出版物リスト */
 .pub-item { margin-bottom: 1.6rem; font-size: 1.4rem; line-height: 1.7; }
 .pub-item b { font-weight: 700; }
 
-/* プロジェクトのサムネイルグリッド＋黒塗りホバー */
 .works {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
