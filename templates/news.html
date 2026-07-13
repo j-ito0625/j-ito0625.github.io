@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}News — Junsei Ito{% endblock %}
+
+{% block content %}
+  <h2 class="sec">news.</h2>
+  {% for item in section.pages %}
+  <div class="news-item{% if item.extra.important %} important{% endif %}">
+    <span class="date">{{ item.date | date(format="%Y:%m") }}</span>
+    {{ item.content | safe }}
+  </div>
+  {% endfor %}
+{% endblock %}

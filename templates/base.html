@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="{% block html_lang %}ja{% endblock %}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% if config.extra.google_analytics %}
+{# Google Analytics 4 #}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ config.extra.google_analytics }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ config.extra.google_analytics }}');
+</script>
+{% endif %}
+
+<title>{% block title %}{{ config.title }}{% endblock %}</title>
+<meta name="description" content="{% block description %}{{ config.description }}{% endblock %}">
+
+{# --- SEO / social meta --- #}
+<link rel="canonical" href="{% block canonical %}{{ current_url | default(value=config.base_url ~ '/') | safe }}{% endblock %}">
+<meta property="og:type" content="{% block og_type %}website{% endblock %}">
+<meta property="og:site_name" content="{{ config.title }}">
+<meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock %}">
+<meta property="og:description" content="{% block og_description %}{{ config.description }}{% endblock %}">
+<meta property="og:url" content="{{ current_url | default(value=config.base_url ~ '/') | safe }}">
+<meta property="og:locale" content="{% block og_locale %}ja_JP{% endblock %}">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{% block tw_title %}{{ config.title }}{% endblock %}">
+<meta name="twitter:description" content="{% block tw_description %}{{ config.description }}{% endblock %}">
+
+{# hreflang: About(ja) ↔ /en/ #}
+<link rel="alternate" hreflang="ja" href="{{ config.base_url | safe }}/">
+<link rel="alternate" hreflang="en" href="{{ config.base_url | safe }}/en/">
+<link rel="alternate" hreflang="x-default" href="{{ config.base_url | safe }}/">
+
+{# favicon #}
+<link rel="icon" href="{{ get_url(path='favicon.svg') }}" type="image/svg+xml">
+<link rel="icon" href="{{ get_url(path='favicon-32.png') }}" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{{ get_url(path='apple-touch-icon.png') }}">
+<meta name="theme-color" content="#ffffff">
+
+{% if config.extra.google_site_verification %}
+<meta name="google-site-verification" content="{{ config.extra.google_site_verification }}">
+{% endif %}
+
+{# JSON-LD: Person #}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Junsei Ito",
+  "alternateName": "伊藤 潤成",
+  "url": "{{ config.base_url | safe }}/",
+  "jobTitle": "Graduate Student / JST ACT-X Researcher",
+  "affiliation": { "@type": "CollegeOrUniversity", "name": "Waseda University" },
+  "sameAs": [
+    "https://github.com/j-ito0625",
+    "https://scholar.google.com/citations?user=cHpWmhoAAAAJ",
+    "https://orcid.org/0009-0001-1025-2928",
+    "https://www.linkedin.com/in/j-ito0625",
+    "https://researchmap.jp/junsei-ito"
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+  (function(d) {
+    var config = { kitId: 'zei7oyz', scriptTimeout: 3000, async: true },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ get_url(path='css/style.css') }}">
+</head>
+<body{% block body_attr %}{% endblock %}>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="{{ get_url(path='@/_index.md') }}">Junsei Ito</a>
+    <nav>
+      <a href="{{ get_url(path='@/_index.md') }}"{% if current_path and current_path == '/' %} class="active"{% endif %}>About</a>
+      <a href="{{ get_url(path='@/projects.md') }}"{% if current_path and current_path is starting_with('/projects') %} class="active"{% endif %}>Projects</a>
+      <a href="{{ get_url(path='@/publications.md') }}"{% if current_path and current_path is starting_with('/publications') %} class="active"{% endif %}>Publications</a>
+      <a href="{{ get_url(path='@/cv.md') }}"{% if current_path and current_path is starting_with('/cv') %} class="active"{% endif %}>CV</a>
+      <a href="{{ get_url(path='@/en.md') }}"{% if current_path and current_path is starting_with('/en') %} class="active"{% endif %}>EN</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+{% block content %}{% endblock %}
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span class="lastmod">Last updated: <!--LASTMOD--></span>
+    <span class="copyright">The contents of this website are © 2026 Junsei Ito. All rights reserved.</span>
+  </div>
+</footer>
+
+</body>
+</html>

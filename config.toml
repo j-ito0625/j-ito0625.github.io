@@ -1,0 +1,17 @@
+base_url = "https://j-ito0625.github.io"
+title = "Junsei Ito | 伊藤 潤成"
+description = "Junsei Ito's personal website"
+default_language = "ja"
+
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[extra]
+author = "Junsei Ito"
+email = "junseiito0625@gmail.com"
+github = "https://github.com/j-ito0625"
+# Google Analytics 4 測定ID（空なら gtag は出力されない）。旧サイトから継続。
+google_analytics = "G-CZ7Z12S44E"
+# Google Search Console 認証トークン（空なら meta は出力されない）。旧サイトから継続。
+google_site_verification = "ruQzK2Z-YDg7G7Zcb4bSZNGIAZ9zVVRtsld9nm8AOYo"
