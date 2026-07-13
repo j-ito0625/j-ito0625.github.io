@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — Junsei Ito{% endblock %}
+
+{% block description %}{{ page.extra.description | default(value=config.description) }}{% endblock %}
+{% block og_title %}{{ page.title }} — Junsei Ito{% endblock %}
+{% block tw_title %}{{ page.title }} — Junsei Ito{% endblock %}
+{% block og_description %}{{ page.extra.description | default(value=config.description) }}{% endblock %}
+{% block tw_description %}{{ page.extra.description | default(value=config.description) }}{% endblock %}
+{% block og_type %}profile{% endblock %}
+{% block og_locale %}{% if page.extra.lang | default(value="ja") == "en" %}en_US{% else %}ja_JP{% endif %}{% endblock %}
+
+{% block html_lang %}{{ page.extra.lang | default(value="ja") }}{% endblock %}
+
+{% block body_attr %}{% if page.extra.body_class %} class="{{ page.extra.body_class }}"{% endif %}{% endblock %}
+
+{% block content %}
+{{ page.content | safe }}
+{% endblock %}
