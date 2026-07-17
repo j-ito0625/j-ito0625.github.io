@@ -90,7 +90,8 @@ Budget: 165,000 JPY
 <h2 class="sec">professional memberships.</h2>
 <div class="item">
 <a href="https://www.sice.jp/" target="_blank" rel="noopener">The Society of Instrument and Control Engineers (SICE)</a><br>
-<a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">The Japanese Society for Artificial Intelligence (JSAI)</a>
+<a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">The Japanese Society for Artificial Intelligence (JSAI)</a><br>
+<a href="https://www.ieeecss.org/" target="_blank" rel="noopener">IEEE Control Systems Society</a>
 </div>
 
 <h2 class="sec">committee service.</h2>

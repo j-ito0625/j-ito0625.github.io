@@ -80,7 +80,8 @@ links: <a href="https://www.waseda.jp/inst/research/news/82130" target="_blank" 
 <h2 class="sec">所属学会.</h2>
 <div class="item">
 <a href="https://www.sice.jp/" target="_blank" rel="noopener">計測自動制御学会 (SICE)</a><br>
-<a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">人工知能学会 (JSAI)</a>
+<a href="https://www.ai-gakkai.or.jp/" target="_blank" rel="noopener">人工知能学会 (JSAI)</a><br>
+<a href="https://www.ieeecss.org/" target="_blank" rel="noopener">IEEE Control Systems Society</a>
 </div>
 
 <h2 class="sec">委員歴.</h2>
