@@ -29,7 +29,7 @@ body_class = "sky"
 
 <h2 class="sec">domestic conferences.</h2>
 <div class="pub-item">
-  <b>[4]</b> <b>伊藤潤成</b>, 和佐泰明, "フローマッチングによる移動ロボットの制御系設計," 2026年度人工知能学会全国大会（第40回）論文集, 5I1-OS-3-02, 群馬, 12th, Jun., 2026.
+  <b>[4]</b> <b>伊藤潤成</b>, 和佐泰明, "フローマッチングによる移動ロボットの制御系設計," 2026年度人工知能学会全国大会（第40回）論文集, 5I1-OS-3-02, 群馬, 12th, Jun., 2026. [<a href="https://doi.org/10.11517/pjsai.JSAI2026.0_5I1OS302" target="_blank" rel="noopener">DOI</a>]
 </div>
 <div class="pub-item">
   <b>[3]</b> <b>伊藤潤成</b>, 和佐泰明, "相転移現象に基づく分散被覆制御," SICE 第13回 制御部門マルチシンポジウム予稿集, 1PS-43, 富山, 4th, Mar., 2026.
