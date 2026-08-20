@@ -6,7 +6,6 @@ template = "page.html"
 body_class = "cream"
 +++
 
-
 <div class="cv-grid">
 <div class="photo">
 <img src="/assets/ito_640.jpg" alt="伊藤 潤成">
@@ -22,15 +21,14 @@ JST ACT-X研究者<br><br>
 
 居室：62号館W棟 2階 11室<br>
 住所：〒169-8555 東京都新宿区大久保 3-4-1 早稲田大学 62号館2階11室<br>
-E-mail：junseiito0625 [at] gmail.com<br><br>
+E-mail：distinction0625 [at] moegi.waseda.jp<br><br>
 
 <a href="https://github.com/j-ito0625" target="_blank" rel="noopener">github</a> /
 <a href="https://scholar.google.com/citations?user=cHpWmhoAAAAJ" target="_blank" rel="noopener">google scholar</a> /
 <a href="https://www.linkedin.com/in/j-ito0625" target="_blank" rel="noopener">linkedin</a> /
 <a href="https://orcid.org/0009-0001-1025-2928" target="_blank" rel="noopener">orcid</a> /
 <a href="https://qiita.com/j-ito0625" target="_blank" rel="noopener">qiita</a> /
-<a href="https://researchmap.jp/junsei-ito" target="_blank" rel="noopener">researchmap</a> /
-<a href="https://www.facebook.com/profile.php?id=100054118945262" target="_blank" rel="noopener">facebook</a>
+<a href="https://researchmap.jp/junsei-ito" target="_blank" rel="noopener">researchmap</a>
 
 <h2 class="sec">略歴.</h2>
 <div class="item">

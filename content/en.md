@@ -7,7 +7,6 @@ body_class = "cream"
 lang = "en"
 +++
 
-
 <div class="cv-grid">
 <div class="photo">
 <img src="/assets/ito_640.jpg" alt="Junsei Ito">
@@ -24,7 +23,7 @@ JST ACT-X Researcher<br><br>
 
 Office: Building 62W, 2nd Floor, Room 11<br>
 Address: 3-4-1 Okubo, Shinjuku-ku, Tokyo 169-8555, Japan<br>
-E-mail: junseiito0625 [at] gmail.com<br><br>
+E-mail: distinction0625 [at] moegi.waseda.jp<br><br>
 
 <a href="https://github.com/j-ito0625" target="_blank" rel="noopener">github</a> /
 <a href="https://scholar.google.com/citations?user=cHpWmhoAAAAJ" target="_blank" rel="noopener">google scholar</a> /
