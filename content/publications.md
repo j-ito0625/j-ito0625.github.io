@@ -21,7 +21,7 @@ body_class = "sky"
 
 <h2 class="sec">peer-reviewed conference proceedings.</h2>
 <div class="pub-item">
-  <b>[C2]</b> <b>Junsei Ito</b>, Yasuaki Wasa, "Partial Observation Amplifies Model Mismatch in MAP Estimation via Information-Curvature Margins," Proc. 65th IEEE Conference on Decision and Control, accepted, HI, USA, 15-18, Dec., 2026.
+  <b>[C2]</b> <b>Junsei Ito</b>, Yasuaki Wasa, "Partial Observation Amplifies Model Mismatch in MAP Estimation via Information-Curvature Margins," Proc. 65th IEEE Conference on Decision and Control, accepted, HI, USA, 15-18, Dec., 2026. [<a href="https://arxiv.org/abs/2608.24550" target="_blank" rel="noopener">arXiv</a>]
 </div>
 <div class="pub-item">
   <b>[C1]</b> <b>Junsei Ito</b>, Yasuaki Wasa, "Phase-Transition-Driven Distributed Coverage Control," 23rd IFAC World Congress, accepted, Busan, Republic of Korea, 23-28, Aug., 2026. [<a href="https://www.youtube.com/watch?v=vPV7cuQ2pbY" target="_blank" rel="noopener">simulation</a>]
