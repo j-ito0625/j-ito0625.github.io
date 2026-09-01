@@ -46,5 +46,8 @@ body_class = "sky"
 
 <h2 class="sec">others.</h2>
 <div class="pub-item">
+  <b>[O2]</b> <b>伊藤潤成</b>, "システム制御理論に基づくPhysics-Informed Neural Networksの自律修復学習," SICE 制御部門 自律型 Cyber-Physical Human Systems 調査研究会 CPHS 合宿 2026, under preparation, 5-6th Nov. 2026.
+</div>
+<div class="pub-item">
   <b>[O1]</b> <b>伊藤潤成</b>, "物理法則に基づく深層学習と自動微分を活用したデータ駆動型適応的PIDゲイン最適化," 早稲田大学 先進理工学部 電気・情報生命工学科 学士論文, 2025年3月.
 </div>
