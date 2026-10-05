@@ -28,7 +28,8 @@ E-mail：distinction0625 [at] moegi.waseda.jp<br><br>
 <a href="https://www.linkedin.com/in/j-ito0625" target="_blank" rel="noopener">linkedin</a> /
 <a href="https://orcid.org/0009-0001-1025-2928" target="_blank" rel="noopener">orcid</a> /
 <a href="https://qiita.com/j-ito0625" target="_blank" rel="noopener">qiita</a> /
-<a href="https://researchmap.jp/junsei-ito" target="_blank" rel="noopener">researchmap</a>
+<a href="https://researchmap.jp/junsei-ito" target="_blank" rel="noopener">researchmap</a><br>
+<a href="/assets/junsei_ito_cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 
 <h2 class="sec">略歴.</h2>
 <div class="item">

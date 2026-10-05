@@ -31,7 +31,8 @@ E-mail: distinction0625 [at] moegi.waseda.jp<br><br>
 <a href="https://orcid.org/0009-0001-1025-2928" target="_blank" rel="noopener">orcid</a> /
 <a href="https://qiita.com/j-ito0625" target="_blank" rel="noopener">qiita</a> /
 <a href="https://researchmap.jp/junsei-ito" target="_blank" rel="noopener">researchmap</a> /
-<a href="https://www.facebook.com/profile.php?id=100054118945262" target="_blank" rel="noopener">facebook</a>
+<a href="https://www.facebook.com/profile.php?id=100054118945262" target="_blank" rel="noopener">facebook</a><br>
+<a href="/assets/junsei_ito_cv.pdf" target="_blank" rel="noopener">CV (PDF)</a>
 
 <h2 class="sec">vision.</h2>
 <div style="color: rgba(0,0,0,0.62); font-size: 1.2rem;">ver. 2026/04/02</div>
