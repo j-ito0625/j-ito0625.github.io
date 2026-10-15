@@ -113,5 +113,11 @@ Researcher
 - 電気・情報生命工学実験B (<a href="https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2806013001012024280601300128&pLng=jp" target="_blank" rel="noopener">2024年</a>, <a href="https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2806013001012025280601300128&pLng=jp" target="_blank" rel="noopener">2025年</a>)<br>
 - システム解析 (<a href="https://www.wsl.waseda.jp/syllabus/JAA104.php?pKey=2806021034012024280602103428&pLng=jp" target="_blank" rel="noopener">2024年</a>)
 </div>
+
+<h2 class="sec">academic links.</h2>
+<div class="item">
+<a href="https://css.paperplaza.net/" target="_blank" rel="noopener">CSS PaperPlaza</a>，<a href="https://ifac.papercept.net/" target="_blank" rel="noopener">IFAC PaperPlaza</a><br>
+<a href="https://arxiv.org/login?next_page=/user/" target="_blank" rel="noopener">arXiv</a>，<a href="https://openreview.net/login" target="_blank" rel="noopener">OpenReview</a>，<a href="https://www.alphaxiv.org/signin?flow=%2F" target="_blank" rel="noopener">alphaXiv</a>
+</div>
 </div>
 </div>
