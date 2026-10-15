@@ -7,6 +7,7 @@
   --accent-blue: #0008ff;
   --accent-orange: #ff4a00;
   --accent-green: #009a4e;
+  --accent-red: #e60000;
 }
 
 * { box-sizing: border-box; }
@@ -225,7 +226,9 @@ h1.about-name {
 .news-item { margin-bottom: 3.2rem; font-size: 1.4rem; line-height: 1.55; }
 .news-item .date { display: block; color: rgba(0,0,0,0.62); font-size: 1.2rem; }
 .news-fy { border: 0; border-top: 0.08em solid rgba(0,0,0,0.25); margin: 0 0 3.2rem; }
-.news-item.highlight { color: var(--accent-orange); }
+.news-item.highlight { color: var(--accent-red); font-weight: 700; }
+.news-item.highlight .date { font-weight: 400; }
+.news-item.highlight a { color: inherit; text-decoration: underline; }
 .news-item.important { border: 0.08em solid var(--ink); border-radius: 1rem; padding: 1.2rem 1.6rem; }
 
 .pub-item { margin-bottom: 1.6rem; font-size: 1.4rem; line-height: 1.7; }
