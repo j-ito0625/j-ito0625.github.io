@@ -61,7 +61,7 @@
       {% set news = get_section(path="news/_index.md") %}
       <div class="news-table">
         {% for item in news.pages | slice(end=5) %}
-        <div class="news-item{% if item.extra.milestone %} milestone{% endif %}">
+        <div class="news-item{% if item.extra.milestone %} milestone{% endif %}{% if item.extra.highlight %} highlight{% endif %}">
           <span class="date">{{ item.date | date(format="%Y:%m") }}</span>
           <span>{{ item.content | safe }}</span>
         </div>

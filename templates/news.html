@@ -4,8 +4,17 @@
 
 {% block content %}
   <h2 class="sec">news.</h2>
+  {% set_global prev_fy = 0 %}
   {% for item in section.pages %}
-  <div class="news-item{% if item.extra.important %} important{% endif %}">
+  {# 年度（4月始まり）が変わるところに区切りを入れる #}
+  {% set y = item.date | date(format="%Y") | int %}
+  {% set m = item.date | date(format="%m") | int %}
+  {% if m < 4 %}{% set fy = y - 1 %}{% else %}{% set fy = y %}{% endif %}
+  {% if fy != prev_fy %}
+  {% if not loop.first %}<hr class="news-fy">{% endif %}
+  {% set_global prev_fy = fy %}
+  {% endif %}
+  <div class="news-item{% if item.extra.important %} important{% endif %}{% if item.extra.highlight %} highlight{% endif %}">
     <span class="date">{{ item.date | date(format="%Y:%m") }}</span>
     {{ item.content | safe }}
   </div>
