@@ -39,7 +39,7 @@ E-mail: distinction0625 [at] moegi.waseda.jp<br><br>
 <p><b>Exploring the principles of intelligence and control under structural constraints in physical systems.</b></p>
 <p>My research lies at the intersection of systems and control theory, information science, and physics. Physical systems carry structural constraints on observation, information, and actuation. In my view, these constraints are not merely technical obstacles but fundamental conditions that shape what estimation, learning, and control can achieve.</p>
 <p>From this perspective, my work seeks to integrate the universal laws and interaction structures of physics with the data-driven learning and estimation capabilities of information science, within the framework of systems and control theory. Of particular interest are principles of intelligence and control that remain effective under structural constraints. I am also interested in cybernetics and emergence, where adaptive and ordered behavior arises through local interactions and information network structures, and my aim is to understand how such behavior can be characterized and designed.</p>
-<div class="kw-line">Systems and Control Theory<span class="kw-sep">/</span>Learning Theory<span class="kw-sep">/</span>Optimization<span class="kw-sep">/</span>Dynamical Systems<span class="kw-sep">/</span>Cybernetics</div>
+<div class="kw-line">Systems and Control Theory<br>Learning Theory<span class="kw-sep">/</span>Optimization<br>Dynamical Systems<span class="kw-sep">/</span>Cybernetics</div>
 
 <h2 class="sec">biography.</h2>
 <div class="item">
